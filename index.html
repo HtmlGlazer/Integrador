@@ -2,25 +2,45 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lucas Ferreira de Oliveira e Paulo Vitor..." />
+    <meta
+      name="descricao"
+      content="Bem-vindo ao Fornalha Urbana, o seu novo destino para uma pizza de verdade. Mais que uma pizzaria, somos o ponto de encontro de quem ama sabor e qualidade."
+    />
     <title>Parmegiana do Juca</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/logo_juca.svg" type="image/icon" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
 </head>
 
 <body>
-    <header>
-        <h1>Bem Vindo a Parmegia do Juca</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a>
-                </li>
-                <li><a href="contato.html">Contatos</a>
-                </li>
-                <li><a href="sobre.html">Serviços</a>
-                </li>
-            </ul>
+
+    <header class="Cabecalho">
+        <div class="menu_hamburguer">
+        <input type="checkbox" id="menu_toggle">
+        <label for="menu_toggle" class="menu_icone">
+        <div class="linha"></div>
+        <div class="linha"></div>
+        <div class="linha"></div>
+        </label>
+        <div class="conteudo_menu">
+        <nav class="menu">
+        <ul>
+            <li><a href="cardapio.html">Nosso Cardápio</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Fale conosco</a></li>
+            <li><a href="https://www.instagram.com/parmegianadojuca/"><img src="img/logo_insta_menu.svg" alt="logo do instagram"/><div class="complementar">Nos acompanhe pelo instagram!</div></a></li>
+            <li><a href="https://www.facebook.com/parmegianadojucaof"><img src="img/logo_face_menu.svg" alt="logo do facebook"/><div class="complementar">Visite nossa página do facebook!</div></a></li>
+            <li><a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"><img src="img/logo_ifood_menu.svg" alt="logo do ifood"/></a></li>
+        </ul>
         </nav>
+        </div>
+        </div>
+        <img src="img/logo_juca.jpg" alt="logo da loja do Juca" width="150" height="150" class="logo_topo">
     </header>
+    
     <main>
         <section>
             <article>
@@ -36,9 +56,9 @@
                 <img src="https://i.pinimg.com/736x/be/18/83/be1883a30346b6f2f00a46649c397a90.jpg"
                     alt="Promoção de Rodízio" width="550" height="600" class="img_right_rodizio">
 
-        <h1>Bem Vindo a  Parmegia do Juca</h1>
+        <h2>Bem Vindo a  Parmegia do Juca</h2>
                 <p>
-                <h1>Bem Vindo a Parmegia do Juca aqui você encontra muito mais do que boas pizzas: oferecemos uma experiência completa para
+                Bem Vindo a Parmegia do Juca aqui você encontra muito mais do que boas pizzas: oferecemos uma experiência completa para
                     toda a família e amigos. Confira nossos serviços e vantagens:
 
                     Rodízio de Pizzas
@@ -59,15 +79,23 @@
             </article>
         </section>
     </main>
-    <footer>
-        <h4>Para Mais Informações:</h4>
-        <p>Telefone:(61)98282-3460/3253-6034</p>
+    
+    <footer class="rodape">
+        <div class="termos_rodape">
+        <span>Telefone:(61)98282-3460/3253-6034</span>
+        </div>
+        <div class="termos_rodape">
+        <span>Localização: Colônia Agrícola Samambaia - Vicente Pires, Brasília - DF</span>
+        </div>
+        <div class="termos_rodape">
+        <span>Horário de funcionamento:
+            De segunda a domingo 
+            Almoço: 11:00 - 15:00
+            Rodízio de Pizza: 18:00 - 23:00
+        </span>
+        </div>
+        <a href="index.html">
+        © Parmegiana do Juca 2025
+        </a>
     </footer>
-    <nav>
-        <ul class="voltar">
-            <li><a href="Inicio.html">Voltar
-                    Ao Topo</a>
-            </li>
-        </ul>
-    </nav>
 </body>
