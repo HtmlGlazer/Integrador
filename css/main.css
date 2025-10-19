@@ -1,19 +1,19 @@
+/*
+==========================================
+Configuração Base e Variáveis CSS (Custom Properties)
+==========================================
+*/
 :root {
-  /* ==========================================
-     Configuração base
-     ========================================== */
+  /* Configuração Base */
   box-sizing: border-box;
+
+  /* Estilo de Imagem Global */
   img {
     max-width: 100%;
     overflow: hidden;
   }
 
-  /* ==========================================
-     Cores
-     ========================================== */
-
-  /*Cores gerais*/
-
+  /* Cores Gerais */
   --Cor-1: #010003;
   --Cor-2: #141414;
   --Cor-3: #ff6347;
@@ -25,8 +25,7 @@
   --Cor-9: #6b4c0f;
   --Cor-10: #3d2a09;
 
-  /*Cores de texto*/
-
+  /* Cores de Texto */
   --Cor-Texto-Fonte-1: #1a1410;
   --Cor-Texto-Fonte-Claro-1: #f5efe0;
   --Cor-Texto-Fonte-2: #2b2419;
@@ -34,8 +33,7 @@
   --Cor-Texto-Medio: #4a3d2f;
   --Cor-Texto-Medio-Claro: #ffffff;
 
-  /*Cores de fundo*/
-
+  /* Cores de Efeito */
   --Cor-Fundo-Transparente: linear-gradient(
       to bottom,
       rgba(1, 0, 3, 0.94),
@@ -45,17 +43,19 @@
     url(../img/fundo_madeira.jpeg) no-repeat, center, center;
   --Cor-Fundo-Cabecalho: var(--Cor-5);
   --Cor-Fundo-Rodape: var(--Cor-9);
-  /*Cores de componentes*/
 
+  /* Cores da tabela */
+  --Cor-Da-Sombra-Da-Tabela: rgba(0, 0, 0, 0.4);
+  --Cor-Do-Fundo-Da-Tabela: rgba(255, 255, 255, 0.05);
+
+  /* Cores de Componentes/Elementos */
   --Cor-Linha: var(--Cor-1);
   --Cor-Linha-Selecionada: var(--Cor-Texto-Medio-Claro);
   --Cor-Selecao-Menu: var(--Cor-3);
+  background-color: rgba(255, 255, 255, 0.05);
+  --Cor-Da-Sombra-Da-Tabela: ;
 
-  /* ==========================================
-     Escala de espacamento 
-     ========================================== */
-
-  /* Mobile (500px) */
+  /* Escala de Espaçamento - Mobile */
   --espacamento-mobile-xs: 4px;
   --espacamento-mobile-sm: 8px;
   --espacamento-mobile-md: 16px;
@@ -64,7 +64,7 @@
   --espacamento-mobile-2xl: 40px;
   --espacamento-mobile-3xl: 48px;
 
-  /* Tablet (768 - 1023px) */
+  /* Escala de Espaçamento - Tablet */
   --espacamento-tablet-xs: 6px;
   --espacamento-tablet-sm: 12px;
   --espacamento-tablet-md: 20px;
@@ -73,7 +73,7 @@
   --espacamento-tablet-2xl: 56px;
   --espacamento-tablet-3xl: 64px;
 
-  /* Desktop (1024px+) */
+  /* Escala de Espaçamento - Desktop */
   --espacamento-desktop-xs: 8px;
   --espacamento-desktop-sm: 16px;
   --espacamento-desktop-md: 24px;
@@ -82,22 +82,7 @@
   --espacamento-desktop-2xl: 72px;
   --espacamento-desktop-3xl: 96px;
 
-  /* ==========================================
-     Escala tipografica
-     ========================================== */
-
-  /* Tipografia Mobile (320px - 767px) */
-  --fonte-mobile-xs: 12px;
-  --fonte-mobile-sm: 14px;
-  --fonte-mobile-base: 16px;
-  --fonte-mobile-md: 18px;
-  --fonte-mobile-lg: 20px;
-  --fonte-mobile-xl: 24px;
-  --fonte-mobile-2xl: 28px;
-  --fonte-mobile-3xl: 32px;
-  --fonte-mobile-4xl: 36px;
-
-  /* Tipografia Mobile (320px - 767px) */
+  /* Escala Tipográfica - Mobile (px e rem) */
   --fonte-mobile-xs: 0.75rem;
   --fonte-mobile-sm: 0.875rem;
   --fonte-mobile-base: 1rem;
@@ -108,7 +93,7 @@
   --fonte-mobile-3xl: 2rem;
   --fonte-mobile-4xl: 2.25rem;
 
-  /* Tipografia Tablet (768px - 1023px) */
+  /* Escala Tipográfica - Tablet */
   --fonte-tablet-xs: 0.8125rem;
   --fonte-tablet-sm: 0.9375rem;
   --fonte-tablet-base: 1.0625rem;
@@ -119,7 +104,7 @@
   --fonte-tablet-3xl: 2.5rem;
   --fonte-tablet-4xl: 3rem;
 
-  /* Tipografia Desktop (1024px+) */
+  /* Escala Tipográfica - Desktop */
   --fonte-desktop-xs: 0.875rem;
   --fonte-desktop-sm: 1rem;
   --fonte-desktop-base: 1.125rem;
@@ -130,16 +115,13 @@
   --fonte-desktop-3xl: 3rem;
   --fonte-desktop-4xl: 4rem;
 
-  /* Altura de linha */
+  /* Altura de Linha */
   --altura-linha-apertada: 1.2rem;
   --altura-linha-normal: 1.5rem;
   --altura-linha-relaxada: 1.75rem;
   --altura-linha-solta: 2rem;
 
-  /* ==========================================
-     Escala de raio de borda
-     ========================================== */
-
+  /* Raio de Borda (Border Radius) */
   --raio-nenhum: 0px;
   --raio-xs: 2px;
   --raio-sm: 4px;
@@ -151,10 +133,7 @@
   --raio-3xl: 24px;
   --raio-completo: 9999px;
 
-  /* ==========================================
-     Espacamento semantico
-     ========================================== */
-
+  /* Espaçamento Semântico */
   --secao-espacamento-mobile: var(--espacamento-mobile-3xl);
   --secao-espacamento-tablet: var(--espacamento-tablet-3xl);
   --secao-espacamento-desktop: var(--espacamento-desktop-3xl);
@@ -168,6 +147,11 @@
   --elemento-gap-desktop: var(--espacamento-desktop-sm);
 }
 
+/*
+==========================================
+Estilos Globais e do Corpo (html, body)
+==========================================
+*/
 html,
 body {
   margin: 0;
@@ -189,10 +173,16 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   z-index: 1;
+  /* Estilos Desktop do Body (sobreescrito) */
+  font-size: var(--fonte-desktop-base);
+  line-height: var(--altura-linha-relaxada);
 }
 
-/* Cabeçalho da página */
-
+/*
+==========================================
+Estilos de Cabeçalho (Header)
+==========================================
+*/
 .Cabecalho {
   background-color: var(--Cor-Fundo-Cabecalho);
   display: flex;
@@ -213,17 +203,21 @@ body {
   margin: 0 auto;
 }
 
-/* Menu hambúrguer */
+.Cabecalho div:last-child {
+  display: flex;
+  gap: 15px;
+}
+
+/*
+==========================================
+Estilos de Menu Hambúrguer e Navegação
+==========================================
+*/
 .menu_hamburguer {
   position: fixed;
   top: 30px;
   left: 20px;
   z-index: 4;
-}
-
-.Cabecalho div:last-child {
-  display: flex;
-  gap: 15px;
 }
 
 .menu_icone {
@@ -275,7 +269,7 @@ body {
 }
 
 #menu_toggle:checked ~ .conteudo_menu .complementar {
-  display: none;
+  display: none; /* Padrão Mobile: esconde o complementar */
 }
 
 #menu_toggle:checked ~ .conteudo_menu {
@@ -315,8 +309,11 @@ body {
   display: none;
 }
 
-/* Conteúdo principal */
-
+/*
+==========================================
+Estilos de Conteúdo Principal (main, article, parágrafos)
+==========================================
+*/
 main {
   grid-column: 1/-1;
   margin: auto;
@@ -327,18 +324,12 @@ main {
 article {
   margin-bottom: 70px;
   overflow: auto;
+  /* Estilos Desktop do Article (sobreescrito) */
+  padding: var(--espacamento-desktop-lg);
 }
 
 article h2 {
   color: var(--Cor-Texto-Fonte-Claro-1);
-  font-size: 2rem;
-  margin-bottom: 25px;
-  margin-top: 40px;
-}
-
-.h2_servicos {
-  color: var(--Cor-Texto-Fonte-Claro-1);
-  text-align: center;
   font-size: 2rem;
   margin-bottom: 25px;
   margin-top: 40px;
@@ -349,18 +340,25 @@ article p {
   margin-bottom: 25px;
 }
 
-.img_right_inicio {
-  float: right;
-  margin: 25px 30px;
-  max-width: 45%;
-  border-radius: 10px;
+/*
+==========================================
+Estilos de Títulos Específicos (h1, h2, h3, h4, h5)
+==========================================
+*/
+h2,
+h3 {
+  letter-spacing: 0.5px;
 }
 
-.img_left_inicio {
-  float: left;
-  margin: 30px 25px 0;
-  max-width: 55%;
-  border-radius: 10px;
+.h2_servicos {
+  color: var(--Cor-Texto-Fonte-Claro-1);
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  /* Estilos Desktop do h2_servicos (sobreescrito) */
+  font-size: var(--fonte-desktop-2xl);
+  margin-bottom: 20px;
 }
 
 .h3_inicial {
@@ -380,6 +378,10 @@ article p {
   color: var(--Cor-Texto-Fonte-Claro-1);
   font-size: 2rem;
   margin-bottom: 25px;
+  /* Estilos Desktop do h3_servicos (sobreescrito) */
+  font-size: var(--fonte-desktop-xl);
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .h4_contatos {
@@ -387,6 +389,44 @@ article p {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 15px;
+}
+
+.h5_contatos {
+  color: var(--Cor-Texto-Fonte-Claro-1);
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.h1_pedidos {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: var(--Cor-Texto-Fonte-Claro-1);
+  padding-bottom: 20px;
+  padding-top: 25px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+/*
+==========================================
+Estilos de Imagens no Conteúdo
+==========================================
+*/
+.img_right_inicio {
+  float: right;
+  margin: 25px 30px;
+  max-width: 45%;
+  border-radius: 10px;
+}
+
+.img_left_inicio {
+  float: left;
+  margin: 30px 25px 0;
+  max-width: 55%;
+  border-radius: 10px;
 }
 
 .img_contatos {
@@ -412,6 +452,11 @@ article p {
   border-radius: 10px;
 }
 
+/*
+==========================================
+Estilos de Tabela (Cardápio)
+==========================================
+*/
 table {
   margin: auto;
 }
@@ -424,28 +469,68 @@ td {
   color: var(--Cor-Texto-Fonte-Claro-2);
 }
 
-.h5_contatos {
-  color: var(--Cor-Texto-Fonte-Claro-1);
-  margin-bottom: 15px;
-  font-size: 1.4rem;
+.tabela_cardapio {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  border-radius: var(--raio-lg);
+  overflow: hidden;
+  background-color: var(--Cor-Do-Fundo-Da-Tabela);
+  box-shadow: 0 4px 12px var(--Cor-Da-Sombra-Da-Tabela);
 }
 
+.tabela_cardapio thead {
+  background-color: var(--Cor-7);
+}
+
+.tabela_cardapio th,
+.tabela_cardapio td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: var(--fonte-desktop-base);
+  line-height: var(--altura-linha-normal);
+}
+
+.tabela_cardapio th {
+  color: var(--Cor-Texto-Fonte-Claro-2);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: var(--fonte-desktop-md);
+}
+
+.tabela_cardapio td {
+  color: var(--Cor-Texto-Fonte-Claro-1);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.tabela_cardapio tbody tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.tabela_cardapio tbody tr:hover td {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 0.3s ease;
+}
+
+.prato_cardapio {
+  display: grid;
+  grid-column: 1/-1;
+  background: var(--Cor-6);
+  padding: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/*
+==========================================
+Estilos de Formulário/Pedidos
+==========================================
+*/
 .body_pedidos {
   font-family: Serif Bold;
   background-color: #0a0a0a;
-}
-
-.h1_pedidos {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: var(--Cor-Texto-Fonte-Claro-1);
-  padding-bottom: 20px;
-  padding-top: 25px;
-  letter-spacing: 1.2px;
-  text-align: justify;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 
 .container {
@@ -466,22 +551,8 @@ td {
   flex: 1;
 }
 
-.textos input {
-  padding: 13px;
-  border-radius: 10px;
-  border: none;
-  font-size: 18px;
-  width: 100%;
-}
-
-.textos select {
-  padding: 13px;
-  border-radius: 10px;
-  border: none;
-  font-size: 18px;
-  width: 100%;
-}
-
+.textos input,
+.textos select,
 .textos textarea {
   padding: 13px;
   border-radius: 10px;
@@ -520,8 +591,11 @@ td {
   background-color: #c70000;
 }
 
-/* Rodapé da página */
-
+/*
+==========================================
+Estilos de Rodapé (Footer)
+==========================================
+*/
 .rodape {
   background-color: var(--Cor-Fundo-Rodape);
   color: var(--Cor-Texto-Fonte-Claro-2);
@@ -533,7 +607,7 @@ td {
 }
 
 .rodape a,
-a:visited {
+.rodape a:visited {
   text-decoration: none;
   display: inline-block;
   color: var(--Cor-Texto-Fonte-Claro-2);
@@ -544,7 +618,7 @@ a:visited {
 }
 
 .rodape a:hover,
-a:active {
+.rodape a:active {
   text-decoration: none;
   color: var(--Cor-Texto-Fonte-Claro-2);
   border-color: var(--Cor-Texto-Fonte-Claro-2);
@@ -555,29 +629,41 @@ a:active {
   padding-right: var(--espacamento-mobile-lg);
 }
 
-/* ==========================================
-   MOBILE (320px - 767px)
-   ========================================== */
+/*
+==========================================
+Media Queries (Responsividade)
+==========================================
+*/
+
+/* ------------------------------------------
+MOBILE (Max 768px)
+------------------------------------------
+*/
 @media (max-width: 768px) {
+  /* Esconde o menu complementar no mobile (padrão) */
   #menu_toggle:checked ~ .conteudo_menu .complementar {
     display: none;
   }
 }
 
-/* ==========================================
-   TABLET (768px - 1023px)
-   ========================================== */
+/* ------------------------------------------
+TABLET (Min 768px)
+------------------------------------------
+*/
 @media (min-width: 768px) {
-  #menu_toggle:checked ~ .conteudo_menu .complementar {
-    display: flex;
-  }
-}
-/* ==========================================
-   DESKTOP (1024px+)
-   ========================================== */
-@media (min-width: 1024px) {
+  /* Mostra o menu complementar em telas maiores que mobile */
   #menu_toggle:checked ~ .conteudo_menu .complementar {
     display: flex;
   }
 }
 
+/* ------------------------------------------
+DESKTOP (Min 1024px)
+------------------------------------------
+*/
+@media (min-width: 1024px) {
+  /* Garante que o menu complementar seja exibido no desktop */
+  #menu_toggle:checked ~ .conteudo_menu .complementar {
+    display: flex;
+  }
+}
