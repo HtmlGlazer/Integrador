@@ -2,6 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  --Cor-1: #e0b85c;
+  --Cor-2: #8a6f38;
+  --Cor-3: #9a2507;
+  --Cor-4: #5c1604;
+  --Cor-5: #ece4cc;
+  --Cor-6: #8a7f6b;
+  --Cor-7: #b85c19;
+  --Cor-8: #6e390f;
+  --Cor-9: #6b4c0f;
+  --Cor-10: #3d2a09;
+
+  --Cor-Texto-Fonte-1: #1a1410;
+  --Cor-Texto-Fonte-Claro-1: #f5efe0;
+  --Cor-Texto-Fonte-2: #2b2419;
+  --Cor-Texto-Fonte-Claro-2: #ffffff;
+  --Cor-Texto-Medio: #4a3d2f;
+  --Cor-Texto-Medio-Claro: #ffffff;
+  
 }
 
 body {
