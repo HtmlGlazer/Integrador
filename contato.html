@@ -9,7 +9,7 @@
       name="descricao"
       content="Bem-vindo ao Fornalha Urbana, o seu novo destino para uma pizza de verdade. Mais que uma pizzaria, somos o ponto de encontro de quem ama sabor e qualidade."
     />
-    <title>Parmegiana do Juca</title>
+    <title>Contato</title>
     <link rel="icon" href="img/logo_juca.svg" type="image/icon" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
   </head>
@@ -28,12 +28,13 @@
         <div class="conteudo_menu">
         <nav class="menu">
         <ul>
-            <li><a href="cardapio.html">Nosso Cardápio</a></li>
-            <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="contato.html">Fale conosco</a></li>
+            <li><a href="index.html"><img src="img/logo_home_menu.svg" alt="Icone de casa"/><div class="complementar">Tela inicial</div></a></li>
+            <li><a href="cardapio.html"><img src="img/carddapio_logo.svg" alt="Prato e talheres"/><div class="complementar">Nosso Cardápio</div></a></li>
+            <li><a href="sobre.html"><img src="img/logo_sobre_menu.svg" alt="Icone de informação"><div class="complementar">Sobre nós</div></a></li>
+            <li><a href="contato.html"><img src="img/icone_contato.svg" alt="Telefone"/><div class="complementar">Fale conosco</div></a></li>
             <li><a href="https://www.instagram.com/parmegianadojuca/"><img src="img/logo_insta_menu.svg" alt="logo do instagram"/><div class="complementar">Nos acompanhe pelo instagram!</div></a></li>
             <li><a href="https://www.facebook.com/parmegianadojucaof"><img src="img/logo_face_menu.svg" alt="logo do facebook"/><div class="complementar">Visite nossa página do facebook!</div></a></li>
-            <li><a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"><img src="img/logo_ifood_menu.svg" alt="logo do ifood"/></a></li>
+            <li><a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"><img src="img/logo_ifood_menu.svg" alt="logo do ifood"/><div class="complementar">Faça-nos um pedido no Ifood!</div></a></li>
         </ul>
         </nav>
         </div>
@@ -43,6 +44,19 @@
 
 
     <main>
+        <h2>Entre em contato através do formulário!</h2>
+        <p>Preencha os campos abaixo caso queira fazer uma pergunta ou formar parceria com nossa loja.</p>
+        <form action="#" method="post" autocomplete="off" class="form">
+        <label for="nome">Nome:</label>
+        <input type="text" name="inome" id="nome" />
+        <label for="email">E-mail</label>
+        <input type="email" name="iemail" id="email" />
+        <label for="mensagem">Mensagem</label>
+        <input type="text" name="imensagem" id="mensagem" />
+        <input type="submit" value="Enviar" />
+      </form>
+      <button class="whatsapp_action">Entre em contato <img src="img/logo_whatsapp_botao.svg" alt="logo do whatsapp"></button>
+
       <section>
         <article>
           <h2>Localização da Parmegiana do Juca</h2>
@@ -55,31 +69,12 @@
             class="img_contatos"
           />
         </article>
-        <article>
-          <h3 class="h3_contatos">Onde Achar Nossa Pizzaria</h3>
-          <ul>
-            <li>IFOOD</li>
-            <li>UBER EATS</li>
-          </ul>
-        </article>
       </section>
-      <h4 class="h4_contatos">Lista Para Contato</h4>
-      <article>
-        <table border="2">
-          <tr>
-            <th>Localização</th>
-            <th>Endereços</th>
-            <th>Contato</th>
-          </tr>
-          <tr>
-            <td>Colônia Agrícola Samambaia - Vicente Pires, Brasília - DF</td>
-            <td>72110-600</td>
-            <td>(61) 3253-6034</td>
-          </tr>
-        </table>
-      </article>
+<div class="mapa_google">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.747304150801!2d-48.05629708750372!3d-15.81727288476301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3321e94051dd%3A0x6e9fb721cde4f203!2sParmegiana%20do%20Juca%20Vicente%20Pires!5e0!3m2!1spt-BR!2sbr!4v1760939963575!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     </main>
-    
+
     <footer class="rodape">
         <div class="termos_rodape">
         <span>Telefone:(61)98282-3460/3253-6034</span>
@@ -100,4 +95,3 @@
     </footer>
   </body>
 </html>
-
