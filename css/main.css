@@ -51,6 +51,7 @@ Configuração Base e Variáveis CSS (Custom Properties)
   --Cor-Fundo-Descricao: var(--Cor-11);
   --Cor-Fundo-Cabecalho: var(--Cor-5);
   --Cor-Fundo-Rodape: var(--Cor-10);
+  --Cor-Fundo-Form: var(--Cor-10);
   --Cor-Descricao-Subtexto: rgba(245, 239, 224, 0.8);
   --Cor-Whatsapp-borda: #075e54;
   --Cor-Whatsapp-fundo: #25d366;
@@ -651,6 +652,40 @@ Estilos de Formulário/Pedidos
 }
 
 .form {
+  background: var(--Cor-Fundo-Form);
+  display: grid;
+  padding: var(--espacamento-mobile-md);
+  border-radius: var(--raio-md);
+}
+
+.form label{
+  grid-column: 1fr;
+  text-shadow: 2px 1px 0 var(--Cor-Texto-Fonte-1);
+}
+
+.form input{
+  grid-column: 1/-1;
+  margin-bottom: var(--espacamento-mobile-xs);
+  border-radius: var(--raio-md);
+}
+
+.para_escrever{
+  padding: var(--espacamento-mobile-md);
+}
+
+.para_enviar{
+  padding: var(--espacamento-mobile-sm);
+  margin-left: var(--espacamento-mobile-lg);
+  margin-right: var(--espacamento-mobile-lg);
+  margin-top: var(--espacamento-mobile-md);
+  margin-bottom: var(--espacamento-mobile-xl);
+}
+
+.form input:hover{
+  border: 1px solid var(--Cor-10);
+}
+
+.form input:active{
   border: 1px solid var(--Cor-10);
 }
 
@@ -660,7 +695,10 @@ Estilos de Formulário/Pedidos
   flex-direction: row;
   gap: var(--espacamento-mobile-sm);
   align-items: center;
+  justify-self: center;
+  margin-top: var(--espacamento-mobile-xl);
   color: var(--Cor-Texto-Fonte-Claro-2);
+  font-size: var(--fonte-mobile-xl);
   text-shadow: 1px 1px var(--Cor-Texto-Fonte-1);
   padding: var(--espacamento-mobile-sm);
   border: 3px solid var(--Cor-Whatsapp-borda);
