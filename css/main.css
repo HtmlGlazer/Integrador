@@ -25,6 +25,7 @@ Configuração Base e Variáveis CSS (Custom Properties)
   --Cor-9: #6b4c0f;
   --Cor-10: #700108;
   --Cor-11: #64140c;
+  --Cor-12: #a7020d;
 
   /* Cores de Texto */
   --Cor-Texto-Fonte-1: #1a1410;
@@ -33,6 +34,7 @@ Configuração Base e Variáveis CSS (Custom Properties)
   --Cor-Texto-Fonte-Claro-2: #ffffff;
   --Cor-Texto-Medio: #4a3d2f;
   --Cor-Texto-Medio-Claro: #ffffff;
+  --Cor-Subtexto: rgba(245, 239, 224, 0.8);
 
   /* Cores de Efeito */
   --Cor-Fundo-Transparente: linear-gradient(
@@ -52,15 +54,15 @@ Configuração Base e Variáveis CSS (Custom Properties)
   --Cor-Fundo-Cabecalho: var(--Cor-5);
   --Cor-Fundo-Rodape: var(--Cor-10);
   --Cor-Fundo-Form: var(--Cor-10);
-  --Cor-Descricao-Subtexto: rgba(245, 239, 224, 0.8);
-  --Cor-Whatsapp-borda: #075e54;
-  --Cor-Whatsapp-fundo: #25d366;
 
   /* Cores de Componentes/Elementos */
   --Cor-Linha: var(--Cor-1);
   --Cor-Linha-Selecionada: var(--Cor-Texto-Medio-Claro);
   --Cor-Selecao-Menu: var(--Cor-3);
   --Cor-Borda-Rodape: var(--Cor-11);
+  --Cor-Borda-Form: var(--Cor-12);
+  --Cor-Whatsapp-borda: #075e54;
+  --Cor-Whatsapp-fundo: #25d366;
 
   /* Escala de Espaçamento - Mobile */
   --espacamento-mobile-xs: 4px;
@@ -367,9 +369,41 @@ article p {
 Estilos de Títulos Específicos (h1, h2, h3, h4, h5)
 ==========================================
 */
-h2,
-h3 {
-  letter-spacing: 0.5px;
+
+.titulo {
+  font-size: var(--fonte-mobile-2xl);
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: var(--fonte-mobile-lg);
+  color: var(--Cor-Subtexto);
+  text-align: center;
+}
+
+.subtitulo_descritivo {
+  font-size: var(--fonte-mobile-sm);
+  color: var(--Cor-Subtexto);
+  text-decoration: none;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  border-radius: var(--raio-md);
+  display: inline-block;
+}
+
+.subtitulo_descritivo:visited {
+  color: var(--Cor-Subtexto);
+  text-decoration: none;
+}
+
+.subtitulo_descritivo:hover,
+.subtitulo_descritivo:active {
+  border-color: var(--Cor-Texto-Fonte-Claro-1);
+  color: var(--Cor-Texto-Fonte-Claro-1);
+}
+
+.titulo_form {
+  font-size: var(--fonte-mobile-lg);
 }
 
 .h2_servicos {
@@ -379,13 +413,6 @@ h3 {
   margin-top: 40px;
   font-size: var(--fonte-desktop-2xl);
   margin-bottom: 20px;
-}
-
-.h3_sobre {
-  color: var(--Cor-Texto-Fonte-Claro-1);
-  text-align: center;
-  font-size: var(--fonte-mobile-2xl);
-  margin-bottom: 25px;
 }
 
 .h3_contatos {
@@ -475,6 +502,19 @@ Estilos de Imagens no Conteúdo
   flex-direction: column;
 }
 
+.flexbox_alinhamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--espacamento-mobile-md);
+}
+
+.flexbox_alinhamento img {
+  max-width: 100%;
+  height: auto;
+}
+
 .mapa_google {
   width: 100%;
   max-width: 600px;
@@ -509,7 +549,7 @@ Estilos de Descrição (Sobre)
 }
 
 .descricao_sobre span {
-  color: var(--Cor-Descricao-Subtexto);
+  color: var(--Cor-Subtexto);
 }
 
 /*
@@ -658,35 +698,42 @@ Estilos de Formulário/Pedidos
   border-radius: var(--raio-md);
 }
 
-.form label{
+.form label {
   grid-column: 1fr;
   text-shadow: 2px 1px 0 var(--Cor-Texto-Fonte-1);
 }
 
-.form input{
+.form input,
+.form textarea {
   grid-column: 1/-1;
   margin-bottom: var(--espacamento-mobile-xs);
   border-radius: var(--raio-md);
+  border: 2px solid transparent;
+  transition: border 0.1s ease-in;
+  outline: none;
 }
 
-.para_escrever{
+.para_escrever {
   padding: var(--espacamento-mobile-md);
 }
 
-.para_enviar{
+.para_enviar {
   padding: var(--espacamento-mobile-sm);
   margin-left: var(--espacamento-mobile-lg);
   margin-right: var(--espacamento-mobile-lg);
   margin-top: var(--espacamento-mobile-md);
   margin-bottom: var(--espacamento-mobile-xl);
+  cursor: pointer;
 }
 
-.form input:hover{
-  border: 1px solid var(--Cor-10);
+.form input:hover,
+.form textarea:hover {
+  border: 2px solid var(--Cor-Borda-Form);
 }
 
-.form input:active{
-  border: 1px solid var(--Cor-10);
+.form input:focus,
+.form textarea:focus {
+  border: 2px solid var(--Cor-Borda-Form);
 }
 
 .whatsapp_action {
@@ -701,15 +748,26 @@ Estilos de Formulário/Pedidos
   font-size: var(--fonte-mobile-xl);
   text-shadow: 1px 1px var(--Cor-Texto-Fonte-1);
   padding: var(--espacamento-mobile-sm);
-  border: 3px solid var(--Cor-Whatsapp-borda);
+  border: 5px solid var(--Cor-Whatsapp-borda);
   border-radius: var(--raio-2xl);
   background: var(--Cor-Whatsapp-fundo);
-  transition: 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.whatsapp_action:hover,
+.whatsapp_action:active {
+  background: var(--Cor-Whatsapp-borda);
+  border-color: var(--Cor-Whatsapp-fundo);
 }
 
 .whatsapp_action img {
   width: 1.8em;
   height: 1.8em;
+}
+
+a:has(.whatsapp_action) {
+  text-decoration: none;
 }
 
 /*
@@ -794,6 +852,16 @@ TABLET (Min 768px)
     width: 80px;
     height: 80px;
   }
+
+  .titulo {
+    font-size: var(--fonte-tablet-2xl);
+    text-align: left;
+  }
+
+  .subtitulo {
+    font-size: var(--fonte-tablet-lg);
+    text-align: left;
+  }
 }
 
 /* ------------------------------------------
@@ -824,5 +892,14 @@ DESKTOP (Min 1024px)
   .menu ul li a img {
     width: 100px;
     height: 100px;
+  }
+
+  .titulo {
+    font-size: var(--fonte-desktop-2xl);
+    text-align: left;
+  }
+  .subtitulo {
+    font-size: var(--fonte-desktop-lg);
+    text-align: left;
   }
 }
