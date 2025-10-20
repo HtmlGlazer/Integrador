@@ -44,35 +44,40 @@
 
 
     <main>
-        <h2>Entre em contato através do formulário!</h2>
-        <p>Preencha os campos abaixo caso queira fazer uma pergunta ou formar parceria com nossa loja.</p>
+        <h2 class="titulo">Entre em contato através do formulário!</h2>
+        <p class="subtitulo">Preencha os campos abaixo caso queira fazer uma pergunta ou formar parceria com nossa loja, ou se preferir, nos mande uma mensagem em nosso contato comercial.</p>
         <form action="#" method="post" autocomplete="off" class="form">
-        <label for="nome">Nome:</label>
+        <label for="nome" class="titulo_form">Nome:</label>
         <input type="text" name="inome" id="nome" class="para_escrever" />
-        <label for="email">E-mail</label>
+        <label for="email" class="titulo_form">E-mail</label>
         <input type="email" name="iemail" id="email" class="para_escrever" />
-        <label for="mensagem">Mensagem</label>
+        <label for="mensagem" class="titulo_form">Mensagem</label>
         <input type="text" name="imensagem" id="mensagem" class="para_escrever" />
         <input type="submit" value="Enviar" class="para_enviar"/>
       </form>
-      <a href="https://wa.link/7bhdqj"></a><button class="whatsapp_action">Entre em contato <img src="img/logo_whatsapp_botao.svg" alt="logo do whatsapp"></a></button>
+      <a href="https://wa.link/7bhdqj"><button class="whatsapp_action">Entre em contato <img src="img/logo_whatsapp_botao.svg" alt="logo do whatsapp"></button></a>
 
       <section>
-        <article>
-          <h2>Localização da Parmegiana do Juca</h2>
 
+          <h2 class="titulo">Localização da Parmegiana do Juca</h2>
+          <p class="subtitulo">Verifique nossa Localização, para não se perder em sua próxima visita</p>
+
+        <div class="flexbox_alinhamento">
           <img
             src="img/ladodefora.jpg"
             alt="Foto do lado de fora do restaurante"
             width="600"
             height="375"
             class="img_contatos"
+            id="img_lado_de_fora"
           />
-        </article>
+          <a class="subtitulo_descritivo" href="#img_lado_de_fora"> Obs:uma imagem representando o que é esperado encontrar ao chegar na entrada de nosso estabelecimento (Fonte:Google maps) </a>
+     
+        <div class="mapa_google">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.747304150801!2d-48.05629708750372!3d-15.81727288476301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3321e94051dd%3A0x6e9fb721cde4f203!2sParmegiana%20do%20Juca%20Vicente%20Pires!5e0!3m2!1spt-BR!2sbr!4v1760939963575!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
       </section>
-<div class="mapa_google">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.747304150801!2d-48.05629708750372!3d-15.81727288476301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3321e94051dd%3A0x6e9fb721cde4f203!2sParmegiana%20do%20Juca%20Vicente%20Pires!5e0!3m2!1spt-BR!2sbr!4v1760939963575!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
     </main>
 
     <footer class="rodape">
