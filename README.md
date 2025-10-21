@@ -1,5 +1,7 @@
 # Integrador
 
+Link figma: https://www.figma.com/design/EratmSDyNhwZrci0JLEjDh/Untitled?node-id=0-1&t=HYitmercXkwQMVXx-1
+
 Para começar, eu sou Lucas Ferreira de Oliveira e fiz o projeto junto com o Paulo Vitor de Melo Rabelo ,um site para a "Parmegiana do Juca" é um restaurante generalista, são diversas opções no menu.
 
 Funções:
