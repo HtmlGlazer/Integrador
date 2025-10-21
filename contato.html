@@ -12,7 +12,16 @@
     <title>Contato</title>
     <link rel="icon" href="img/logo_juca.svg" type="image/icon" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
-  </head>
+    <script>
+      const botao = document.querySelector("#whatsapp_botao");
+      const titulo = document.querySelector("#titulo");
+
+      botao.onclick = function(){
+        titulo.innerHTML = "Você clickou no botão";
+        titulo.style.color = "red";
+        document.body.style.backgroundColor = "white";
+      }
+    </script>
 </head>
 
 <body>
@@ -45,7 +54,7 @@
 
 
     <main>
-        <h2 class="titulo">Entre em contato através do formulário!</h2>
+        <h2 class="titulo" id="titulo">Entre em contato através do formulário!</h2>
         <p class="subtitulo">Preencha os campos abaixo caso queira fazer uma pergunta ou formar parceria com nossa loja, ou se preferir, nos mande uma mensagem em nosso contato comercial.</p>
         <form action="#" method="post" autocomplete="off" class="form">
         <label for="nome" class="titulo_form">Nome:</label>
@@ -56,7 +65,7 @@
         <input type="text" name="imensagem" id="mensagem" class="para_escrever" />
         <input type="submit" value="Enviar" class="para_enviar"/>
       </form>
-      <a href="https://wa.link/7bhdqj"><button class="whatsapp_action">Entre em contato <img src="img/logo_whatsapp_botao.svg" alt="logo do whatsapp"></button></a>
+      <a href="https://wa.link/7bhdqj"><button class="whatsapp_action" id="whatsapp_botao">Entre em contato <img src="img/logo_whatsapp_botao.svg" alt="logo do whatsapp"></button></a>
 
       <section>
 
