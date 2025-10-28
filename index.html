@@ -7,7 +7,7 @@
     <meta name="author" content="Lucas Ferreira de Oliveira e Paulo Vitor..." />
     <meta
       name="descricao"
-      content="Bem-vindo ao Fornalha Urbana, o seu novo destino para uma pizza de verdade. Mais que uma pizzaria, somos o ponto de encontro de quem ama sabor e qualidade."
+      content="Restaurante especializado em parmegiana, pizzas artesanais e hambúrgueres. Comida de qualidade em ambiente acolhedor, localizado em Vicente Pires, Brasília."
     />
     <title>Parmegiana do Juca</title>
     <link rel="icon" href="img/logo_juca.svg" type="image/icon" />
@@ -46,7 +46,14 @@
         <img src="img/logo_juca.jpg" alt="logo da loja do Juca" width="150" height="150" class="logo_topo">
     </header>
    
-        <a href="cardapio.html"><img class="img_principal" src="img/parmegiana.webp" alt="Parmegina de Carne"/></a>
+        <a href="cardapio.html">
+        <img id="imgPrincipal" class="img_principal" src="img/parmegiana.webp" alt="Parmegina de Carne"/>
+        </a>
+        <div class="container_saudacao">
+        <input id="nomeCliente" class="campo_nome" type="text" placeholder="Digite seu nome">
+        <p id="mensagemBoasVindas" class="mensagem_boas_vindas"></p>
+        </div>
+        </div>
         <a href="cardapio.html" class="botao_principal">Cardápio</a>
         <a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819" class="botao_principal">Ifood</a>
         <a href="https://wa.link/7bhdqj" class="botao_principal">Whatsapp</a>
@@ -90,4 +97,34 @@
         © Parmegiana do Juca 2025
         </a>
     </footer>
+
+<script> imagem = document.querySelector("#imgPrincipal");
+
+imagem.onmouseover = function() {
+    imagem.style.opacity = "0.7";
+    imagem.style.transform = "scale(1.05)";
+    imagem.style.transition = "all 0.3s ease";
+}
+
+imagem.onmouseout = function() {
+    imagem.style.opacity = "1";
+    imagem.style.transform = "scale(1)";
+}
+
+</script>
+
+<script>
+const campo = document.querySelector("#nomeCliente");
+const mensagem = document.querySelector("#mensagemBoasVindas");
+
+campo.oninput = function() {
+    if (campo.value.trim() !== "") {
+        mensagem.innerHTML = "Olá, " + campo.value + "! Seja bem-vindo(a)...";
+    } else {
+        mensagem.innerHTML = "";
+    }
+}
+
+</script>
+
 </body>
