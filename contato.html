@@ -21,7 +21,7 @@
   <body>
     <header id="header-container"></header>
 
-    <main>
+    <main role="main" aria-label="Conteúdo principal">
       <a href="#nome" class="botao_principal" id="conteudo_principal">
         Conteúdo principal
       </a>
@@ -36,7 +36,13 @@
         parceria com nossa loja, ou se preferir, nos mande uma mensagem em nosso
         contato comercial.
       </p>
-      <form action="#" method="post" autocomplete="off" class="form">
+      <form
+        action="#"
+        method="post"
+        autocomplete="off"
+        class="form"
+        aria-labelledby="titulo_form"
+      >
         <label for="nome" class="titulo_form">Nome:</label>
         <input
           type="text"
@@ -44,6 +50,8 @@
           id="nome"
           class="para_escrever"
           required
+          aria-required="true"
+        />
         />
         <label for="email" class="titulo_form">E-mail</label>
         <input
@@ -52,6 +60,7 @@
           id="email"
           class="para_escrever"
           required
+          aria-required="true"
         />
         <label for="mensagem" class="titulo_form">Mensagem</label>
         <input
@@ -60,6 +69,7 @@
           id="mensagem"
           class="para_escrever"
           required
+          aria-required="true"
         />
         <input type="submit" value="Enviar" class="para_enviar" />
       </form>
@@ -100,6 +110,7 @@
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Mapa mostrando a localização do restaurante em Vicente Pires, Brasília"
             ></iframe>
           </div>
         </div>
@@ -109,6 +120,10 @@
       </a>
     </main>
 
-    <footer id="footer-container"></footer>
+    <footer
+      id="footer-container"
+      role="contentinfo"
+      aria-label="Informações de contato e rodapé"
+    ></footer>
   </body>
 </html>

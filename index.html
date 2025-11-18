@@ -21,7 +21,10 @@
   <body>
     <header id="header-container"></header>
 
-    <section class="interacao-usuario">
+    <section
+      class="interacao-usuario"
+      aria-label="Conteúdo interativo para o usuário"
+    >
       <a href="cardapio.html">
         <img
           id="imgPrincipal"
@@ -30,7 +33,10 @@
           alt="Parmegina de Carne"
         />
       </a>
-      <div class="container_saudacao">
+      <div
+        class="container_saudacao"
+        aria-label="Saudação interativa do usuário"
+      >
         <input
           id="nomeCliente"
           class="campo_nome"
@@ -55,7 +61,7 @@
       </div>
     </section>
 
-    <main>
+    <main aria-label="Conteúdo principal">
       <h2 class="titulo" id="principal">Sobre a Parmegiana do Juca</h2>
 
       <p class="texto">
@@ -88,6 +94,10 @@
       >
     </main>
 
-    <footer id="footer-container"></footer>
+    <footer
+      id="footer-container"
+      role="contentinfo"
+      aria-label="Informações de contato e rodapé"
+    ></footer>
   </body>
 </html>
