@@ -1,0 +1,58 @@
+:root {
+  /* Cores Gerais */
+  --Cor-1: #010003;
+  --Cor-2: #141414;
+  --Cor-3: #ff6347;
+  --Cor-4: #5c1604;
+  --Cor-5: #fdfffd;
+  --Cor-6: #8a7f6b;
+  --Cor-7: #b85c19;
+  --Cor-8: #6e390f;
+  --Cor-9: #6b4c0f;
+  --Cor-10: #700108;
+  --Cor-11: #64140c;
+  --Cor-12: #a7020d;
+
+  /* Cores de Texto */
+  --Cor-Texto-Fonte-1: #1a1410;
+  --Cor-Texto-Fonte-Claro-1: #f5efe0;
+  --Cor-Texto-Fonte-2: #2b2419;
+  --Cor-Texto-Fonte-Claro-2: #ffffff;
+  --Cor-Texto-Medio: #4a3d2f;
+  --Cor-Texto-Medio-Claro: #ffffff;
+  --Cor-Subtexto: rgba(245, 239, 224, 0.8);
+
+  /* Cores de Efeito */
+  --Cor-Fundo-Transparente: linear-gradient(
+      to bottom,
+      rgba(1, 0, 3, 0.94),
+      rgba(23, 22, 22, 0.99),
+      rgba(1, 0, 3, 0.94)
+    ),
+    url(../img/fundo_madeira.jpeg);
+
+  /* Cores de classe, sem efeitos */
+  --Cor-Da-Sombra-Da-Tabela: rgba(0, 0, 0, 0.4);
+  --Cor-Do-Fundo-Da-Tabela: rgba(255, 255, 255, 0.05);
+  --Cor-Da-Sombra-Da-Descricao: var(--Cor-Texto-Fonte-1);
+  --Cor-Fundo-Descricao: var(--Cor-11);
+  --Cor-Fundo-Cabecalho: var(--Cor-5);
+  --Cor-Fundo-Rodape: var(--Cor-10);
+  --Cor-Fundo-Form: var(--Cor-10);
+  --Cor-Descricao-Subtexto: rgba(245, 239, 224, 0.8);
+
+  /* Cores de Componentes/Elementos */
+  --Cor-Linha: var(--Cor-1);
+  --Cor-Linha-Selecionada: var(--Cor-Texto-Medio-Claro);
+  --Cor-Selecao-Menu: var(--Cor-3);
+  --Cor-Borda-Rodape: var(--Cor-11);
+  --Cor-Borda-Form: var(--Cor-12);
+  --Cor-Whatsapp-Borda: #075e54;
+  --Cor-Whatsapp-Fundo: #25d366;
+  --Cor-Whatsapp-Borda-Invert: #25d366;
+  --Cor-Whatsapp-Fundo-Invert: #075e54;
+  --Cor-Botao-Cardapio: var(--Cor-10);
+  --Cor-Borda-Cardapio: var(--Cor-3);
+  --Cor-Botao-Cardapio-Invert: var(--Cor-3);
+  --Cor-Borda-Cardapio-Invert: var(--Cor-10);
+}

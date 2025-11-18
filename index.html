@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Lucas Ferreira de Oliveira e Paulo Vitor..." />
@@ -11,120 +10,84 @@
     />
     <title>Parmegiana do Juca</title>
     <link rel="icon" href="img/logo_juca.svg" type="image/icon" />
+    <link rel="stylesheet" href="css/colors.css" type="text/css" />
+    <link rel="stylesheet" href="css/spacing.css" type="text/css" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/queries.css" type="text/css" />
+    <script src="js/componentes.js" defer></script>
+    <script src="js/tabelas.js" defer></script>
+    <script src="js/interacoes.js" defer></script>
   </head>
-</head>
+  <body>
+    <header id="header-container"></header>
 
-<body>
-
-    <header class="Cabecalho">
-        <div class="menu_hamburguer">
-        <input type="checkbox" id="menu_toggle">
-        <label for="menu_toggle" class="menu_icone">
-        <div class="linha"></div>
-        <div class="linha"></div>
-        <div class="linha"></div>
-        </label>
-        <div class="conteudo_menu">
-        <nav class="menu">
-        <ul>
-            <li><a href="index.html"><img src="img/logo_home_menu.svg" alt="Icone de casa"/><div class="complementar">Tela inicial</div></a></li>
-            <li><a href="cardapio.html"><img src="img/carddapio_logo.svg" alt="Prato e talheres"/><div class="complementar">Nosso Cardápio</div></a></li>
-            <li><a href="sobre.html"><img src="img/logo_sobre_menu.svg" alt="Icone de informação"><div class="complementar">Sobre nós</div></a></li>
-            <li><a href="contato.html"><img src="img/icone_contato.svg" alt="Telefone"/><div class="complementar">Fale conosco</div></a></li>
-            <li><a href="https://www.instagram.com/parmegianadojuca/"><img src="img/logo_insta_menu.svg" alt="logo do instagram"/><div class="complementar">Nos acompanhe pelo instagram!</div></a></li>
-            <li><a href="https://www.facebook.com/parmegianadojucaof"><img src="img/logo_face_menu.svg" alt="logo do facebook"/><div class="complementar">Visite nossa página do facebook!</div></a></li>
-            <li><a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"><img src="img/logo_ifood_menu.svg" alt="logo do ifood"/><div class="complementar">Faça-nos um pedido no Ifood!</div></a></li>
-            <li><a href="https://wa.link/7bhdqj"><img src="img/logo_whatsapp_menu.svg" alt="logo do Whatsapp"/><div class="complementar">Chame no Whatsapp!</div></a></li>
-        </ul>
-        </nav>
-        </div>
-        </div>
-        <img src="img/logo_juca.jpg" alt="logo da loja do Juca" width="150" height="150" class="logo_topo">
-    </header>
-   
-        <a href="cardapio.html">
-        <img id="imgPrincipal" class="img_principal" src="img/parmegiana.webp" alt="Parmegina de Carne"/>
-        </a>
-        <div class="container_saudacao">
-        <input id="nomeCliente" class="campo_nome" type="text" placeholder="Digite seu nome">
+    <section class="interacao-usuario">
+      <a href="cardapio.html">
+        <img
+          id="imgPrincipal"
+          class="img_principal"
+          src="img/parmegiana.webp"
+          alt="Parmegina de Carne"
+        />
+      </a>
+      <div class="container_saudacao">
+        <input
+          id="nomeCliente"
+          class="campo_nome"
+          type="text"
+          placeholder="Digite seu nome"
+        />
         <p id="mensagemBoasVindas" class="mensagem_boas_vindas"></p>
-        </div>
-        </div>
+      </div>
+      <div>
+        <a href="#principal" class="botao_principal" id="conteudo_principal"
+          >Conteúdo principal</a
+        >
+      </div>
+      <div class="flexbox_alinhamento">
         <a href="cardapio.html" class="botao_principal">Cardápio</a>
-        <a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819" class="botao_principal">Ifood</a>
+        <a
+          href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"
+          class="botao_principal"
+          >Ifood</a
+        >
         <a href="https://wa.link/7bhdqj" class="botao_principal">Whatsapp</a>
+      </div>
+    </section>
 
-       
     <main>
+      <h2 class="titulo" id="principal">Sobre a Parmegiana do Juca</h2>
 
-                <h2 class="titulo"> Sobre a Parmegiana do Juca</h2>
+      <p class="texto">
+        Aqui você encontra uma variedade de opções: oferecemos uma experiência
+        completa para toda a família e amigos.
+      </p>
 
-                    <p class="texto"> Aqui você encontra uma variedade de opções: oferecemos uma experiência completa para toda a família e amigos.</p>
+      <h3 class="titulo_menor">Rodízio de Pizzas</h3>
+      <p class="texto">
+        Toda sexta, sábado e domingo, a partir das 19h, você pode saborear nosso
+        rodízio com mais de 30 sabores de pizzas salgadas e doces, além de
+        acompanhamentos especiais.
+      </p>
 
-                    <h3 class="titulo_menor">Rodízio de Pizzas</h3>
-                    <p class="texto">Toda sexta, sábado e domingo, a partir das 19h, você pode saborear nosso rodízio com mais de 30
-                    sabores de pizzas salgadas e doces, além de acompanhamentos especiais.</p>
+      <h3 class="titulo_menor">Promoções Especiais</h3>
+      <p class="texto">
+        Terça e Quarta da Pizza - na compra de uma pizza grande, a segunda sai
+        pela metade do preço. Quinta da Família - peça 2 pizzas grandes e ganhe
+        um refrigerante 2L.
+      </p>
 
-                    <h3 class="titulo_menor">Promoções Especiais</h3>
-                    <p class="texto">Terça e Quarta da Pizza - na compra de uma pizza grande, a segunda sai pela metade do preço.
-                    Quinta da Família - peça 2 pizzas grandes e ganhe um refrigerante 2L.</p>
-
-                    <h3 class="titulo_menor">Cardápio Variado</h3>
-                    <p class="texto">Pizzas tradicionais, especiais e gourmet, preparadas com ingredientes selecionados e massa
-                    artesanal. Também oferecemos opções vegetarianas, doces e bordas recheadas.</p>
-
+      <h3 class="titulo_menor">Cardápio Variado</h3>
+      <p class="texto">
+        Pizzas tradicionais, especiais e gourmet, preparadas com ingredientes
+        selecionados e massa artesanal. Também oferecemos opções vegetarianas,
+        doces e bordas recheadas.
+      </p>
+      <a href="#imgPrincipal" class="botao_principal" id="voltar_topo"
+        >Voltar Para o topo</a
+      >
     </main>
-    
-    <footer class="rodape">
-        <div class="termos_rodape">
-        <span>Telefone:(61)98282-3460/3253-6034</span>
-        </div>
-        <div class="termos_rodape">
-        <span>Localização: Colônia Agrícola Samambaia - Vicente Pires, Brasília - DF</span>
-        </div>
-        <div class="termos_rodape">
-        <span>Horário de funcionamento:
-            De segunda a domingo 
-            Almoço: 11:00 - 15:00
-            Rodízio de Pizza: 18:00 - 23:00
-        </span>
-        </div>
-        <a href="index.html">
-        © Parmegiana do Juca 2025
-        </a>
-    </footer>
 
-<script> imagem = document.querySelector("#imgPrincipal");
-
-imagem.onmouseover = function() {
-    imagem.style.opacity = "0.7";
-    imagem.style.transform = "scale(1.05)";
-    imagem.style.transition = "all 0.3s ease";
-}
-
-imagem.onmouseout = function() {
-    imagem.style.opacity = "1";
-    imagem.style.transform = "scale(1)";
-}
-
-</script>
-
-<script>
-const campo = document.querySelector("#nomeCliente");
-const mensagem = document.querySelector("#mensagemBoasVindas");
-
-campo.oninput = function() {
-    if (campo.value.trim() !== "") {
-        mensagem.innerHTML = "Olá, " + campo.value + "! Seja bem-vindo(a)...";
-    } else {
-        mensagem.innerHTML = "";
-    }
-}
-
-</script>
-
-</body>
+    <footer id="footer-container"></footer>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+:root {
+  /* Escala de Espaçamento - Mobile */
+  --espacamento-mobile-xs: 4px;
+  --espacamento-mobile-sm: 8px;
+  --espacamento-mobile-md: 16px;
+  --espacamento-mobile-lg: 24px;
+  --espacamento-mobile-xl: 32px;
+  --espacamento-mobile-2xl: 40px;
+  --espacamento-mobile-3xl: 48px;
+
+  /* Escala de Espaçamento - Tablet */
+  --espacamento-tablet-xs: 6px;
+  --espacamento-tablet-sm: 12px;
+  --espacamento-tablet-md: 20px;
+  --espacamento-tablet-lg: 32px;
+  --espacamento-tablet-xl: 40px;
+  --espacamento-tablet-2xl: 56px;
+  --espacamento-tablet-3xl: 64px;
+
+  /* Escala de Espaçamento - Desktop */
+  --espacamento-desktop-xs: 8px;
+  --espacamento-desktop-sm: 16px;
+  --espacamento-desktop-md: 24px;
+  --espacamento-desktop-lg: 40px;
+  --espacamento-desktop-xl: 56px;
+  --espacamento-desktop-2xl: 72px;
+  --espacamento-desktop-3xl: 96px;
+
+  /* Escala de Espaçamento - Telas Grandes */
+  --espacamento-large-xs: 10px;
+  --espacamento-large-sm: 20px;
+  --espacamento-large-md: 32px;
+  --espacamento-large-lg: 48px;
+  --espacamento-large-xl: 64px;
+  --espacamento-large-2xl: 88px;
+  --espacamento-large-3xl: 120px;
+
+  /* Escala Tipográfica - Mobile */
+  --fonte-mobile-xs: 0.75rem;
+  --fonte-mobile-sm: 0.875rem;
+  --fonte-mobile-base: 1rem;
+  --fonte-mobile-md: 1.125rem;
+  --fonte-mobile-lg: 1.25rem;
+  --fonte-mobile-xl: 1.5rem;
+  --fonte-mobile-2xl: 1.75rem;
+  --fonte-mobile-3xl: 2rem;
+  --fonte-mobile-4xl: 2.25rem;
+
+  /* Escala Tipográfica - Tablet */
+  --fonte-tablet-xs: 0.8125rem;
+  --fonte-tablet-sm: 0.9375rem;
+  --fonte-tablet-base: 1.0625rem;
+  --fonte-tablet-md: 1.1875rem;
+  --fonte-tablet-lg: 1.375rem;
+  --fonte-tablet-xl: 1.75rem;
+  --fonte-tablet-2xl: 2.125rem;
+  --fonte-tablet-3xl: 2.5rem;
+  --fonte-tablet-4xl: 3rem;
+
+  /* Escala Tipográfica - Desktop */
+  --fonte-desktop-xs: 0.875rem;
+  --fonte-desktop-sm: 1rem;
+  --fonte-desktop-base: 1.125rem;
+  --fonte-desktop-md: 1.25rem;
+  --fonte-desktop-lg: 1.5rem;
+  --fonte-desktop-xl: 2rem;
+  --fonte-desktop-2xl: 2.5rem;
+  --fonte-desktop-3xl: 3rem;
+  --fonte-desktop-4xl: 4rem;
+
+  /* Escala Tipográfica - Telas Grandes */
+  --fonte-large-xs: 0.9375rem;
+  --fonte-large-sm: 1.0625rem;
+  --fonte-large-base: 1.25rem;
+  --fonte-large-md: 1.375rem;
+  --fonte-large-lg: 1.625rem;
+  --fonte-large-xl: 2.25rem;
+  --fonte-large-2xl: 2.875rem;
+  --fonte-large-3xl: 3.5rem;
+  --fonte-large-4xl: 4.5rem;
+
+  /* Altura de Linha */
+  --altura-linha-apertada: 1.2rem;
+  --altura-linha-normal: 1.5rem;
+  --altura-linha-relaxada: 1.75rem;
+  --altura-linha-solta: 2rem;
+
+  /* Raio de Borda (Border Radius) */
+  --raio-nenhum: 0px;
+  --raio-xs: 2px;
+  --raio-sm: 4px;
+  --raio-md: 6px;
+  --raio-base: 8px;
+  --raio-lg: 12px;
+  --raio-xl: 16px;
+  --raio-2xl: 20px;
+  --raio-3xl: 24px;
+  --raio-completo: 9999px;
+
+  /* Espaçamento Semântico */
+  --secao-espacamento-mobile: var(--espacamento-mobile-3xl);
+  --secao-espacamento-tablet: var(--espacamento-tablet-3xl);
+  --secao-espacamento-desktop: var(--espacamento-desktop-3xl);
+  --secao-espacamento-large: var(--espacamento-large-3xl);
+
+  --container-padding-mobile: var(--espacamento-mobile-md);
+  --container-padding-tablet: var(--espacamento-tablet-lg);
+  --container-padding-desktop: var(--espacamento-desktop-lg);
+  --container-padding-large: var(--espacamento-large-lg);
+
+  --elemento-gap-mobile: var(--espacamento-mobile-sm);
+  --elemento-gap-tablet: var(--espacamento-tablet-sm);
+  --elemento-gap-desktop: var(--espacamento-desktop-sm);
+  --elemento-gap-large: var(--espacamento-large-sm);
+}

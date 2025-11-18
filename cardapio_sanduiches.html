@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Lucas Ferreira de Oliveira e Paulo Vitor..." />
@@ -9,141 +8,53 @@
       name="descricao"
       content="Restaurante especializado em parmegiana, pizzas artesanais e hambúrgueres. Comida de qualidade em ambiente acolhedor, localizado em Vicente Pires, Brasília."
     />
-    <title>Cardápio</title>
+    <title>Parmegiana do Juca - Sanduíches</title>
     <link rel="icon" href="img/logo_juca.svg" type="image/icon" />
+    <link rel="stylesheet" href="css/colors.css" type="text/css" />
+    <link rel="stylesheet" href="css/spacing.css" type="text/css" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/queries.css" type="text/css" />
+    <script src="js/componentes.js" defer></script>
+    <script src="js/tabelas.js" defer></script>
+    <script src="js/interacoes.js" defer></script>
   </head>
-</head>
+  <body>
+    <header id="header-container"></header>
 
-<body>
+    <main>
+      <a
+        href="#tabela_cardapio"
+        class="botao_principal"
+        id="conteudo_principal"
+      >
+        Conteúdo principal
+      </a>
+      <a href="index.html" class="botao_principal" id="conteudo_principal"
+        >Página Inicial</a
+      >
 
-    <header class="Cabecalho">
-        <div class="menu_hamburguer">
-        <input type="checkbox" id="menu_toggle">
-        <label for="menu_toggle" class="menu_icone">
-        <div class="linha"></div>
-        <div class="linha"></div>
-        <div class="linha"></div>
-        </label>
-        <div class="conteudo_menu">
-        <nav class="menu">
-        <ul>
-            <li><a href="index.html"><img src="img/logo_home_menu.svg" alt="Icone de casa"/><div class="complementar">Tela inicial</div></a></li>
-            <li><a href="cardapio.html"><img src="img/carddapio_logo.svg" alt="Prato e talheres"/><div class="complementar">Nosso Cardápio</div></a></li>
-            <li><a href="sobre.html"><img src="img/logo_sobre_menu.svg" alt="Icone de informação"><div class="complementar">Sobre nós</div></a></li>
-            <li><a href="contato.html"><img src="img/icone_contato.svg" alt="Telefone"/><div class="complementar">Fale conosco</div></a></li>
-            <li><a href="https://www.instagram.com/parmegianadojuca/"><img src="img/logo_insta_menu.svg" alt="logo do instagram"/><div class="complementar">Nos acompanhe pelo instagram!</div></a></li>
-            <li><a href="https://www.facebook.com/parmegianadojucaof"><img src="img/logo_face_menu.svg" alt="logo do facebook"/><div class="complementar">Visite nossa página do facebook!</div></a></li>
-            <li><a href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"><img src="img/logo_ifood_menu.svg" alt="logo do ifood"/><div class="complementar">Faça-nos um pedido no Ifood!</div></a></li>
-            <li><a href="https://wa.link/7bhdqj"><img src="img/logo_whatsapp_menu.svg" alt="logo do Whatsapp"/><div class="complementar">Chame no Whatsapp!</div></a></li>
-        </ul>
-        </nav>
-        </div>
-        </div>
-        <img src="img/logo_juca.jpg" alt="logo da loja do Juca" width="150" height="150" class="logo_topo">
-    </header>
+      <nav class="flexbox_alinhamento">
+        <a href="cardapio.html" class="nav_cardapio">Principal</a>
+        <a href="cardapio_sanduiches.html" class="nav_cardapio">Sanduíches</a>
+        <a href="cardapio_bebidas.html" class="nav_cardapio">Bebidas</a>
+        <a href="cardapio_rodizio.html" class="nav_cardapio">Rodízio</a>
+      </nav>
 
-<main>
-  <nav class="flexbox_alinhamento">
-    <a href="cardapio.html" class="nav_cardapio">Principal</a>
-    <a href="cardapio_sanduiches.html" class="nav_cardapio">Sanduíches</a>
-    <a href="cardapio_bebidas.html"class="nav_cardapio">Bebidas</a>
-    <a href="cardapio_rodizio.html" class="nav_cardapio">Rodízio</a>
-  </nav>
-  <section>
+      <section id="tabela_cardapio">
+        <h2 class="titulo_centro">Cardápio de Sanduíches</h2>
+        <div id="tabela-cardapio-sanduiches"></div>
+      </section>
 
-      <h2 class="titulo_centro">Cardápio de Sanduíches</h2>
+      <section>
+        <h3 class="titulo_centro">Baguetes</h3>
+        <div id="tabela-cardapio-baguetes"></div>
+      </section>
 
+      <a href="#" class="botao_principal" id="voltar_topo">
+        Voltar Para o topo
+      </a>
+    </main>
 
-      <table class="tabela_cardapio">
-        <thead>
-          <tr>
-            <th>Prato</th>
-            <th>Descrição</th>
-            <th>Preço</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Super Juca</td>
-            <td>2 burguers artesanais, ovo, queijo, bacon, batata palha, alface e tomate.</td>
-            <td>R$ 27,90</td>
-          </tr>
-          <tr>
-            <td>Do Juca</td>
-            <td>Picanha suína, anéis de cebola empanados, mussarela, bacon, tomate, alface e molho smash.</td>
-            <td>R$ 18,90</td>
-          </tr>
-          <tr>
-            <td>Chicken Especial</td>
-            <td>Blend de frango moído com bacon, tomate, cebola, alface e queijo.</td>
-            <td>R$ 16,90</td>
-          </tr>
-          <tr>
-            <td>Cabra Macho</td>
-            <td>Burguer artesanal, cheddar, molho picante e cebola.</td>
-            <td>R$ 16,90</td>
-          </tr>
-          <tr>
-            <td>X - Carne Seca</td>
-            <td>Carne seca, queijo mussarela e molho especial da casa.</td>
-            <td>R$ 14,90</td>
-          </tr>
-          <tr>
-            <td>Big Clássico</td>
-            <td>Burger bovino, queijo, bacon, tomate e alface.</td>
-            <td>R$ 18,90</td>
-          </tr>
-        </tbody>
-      </table>
-
-    </section>
-
-    <section>
-      <h3 class="titulo_centro">Baguetes</h3>
-      <table class="tabela_cardapio">
-        <thead>
-          <tr>
-            <th>Prato</th>
-            <th>Descrição</th>
-            <th>Preço</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Baguete de Costela</td>
-            <td>Costela desfiada, alface e tomate.</td>
-            <td>R$ 14,90</td>
-          </tr>
-          <tr>
-            <td>Baguete de Pernil</td>
-            <td>Pernil desfiado, alface e tomate.</td>
-            <td>R$ 14,90</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    
-
-
-</main>
-
-        <footer class="rodape">
-        <div class="termos_rodape">
-        <span>Telefone:(61)98282-3460/3253-6034</span>
-        </div>
-        <div class="termos_rodape">
-        <span>Localização: Colônia Agrícola Samambaia - Vicente Pires, Brasília - DF</span>
-        </div>
-        <div class="termos_rodape">
-        <span>Horário de funcionamento:
-            De segunda a domingo 
-            Almoço: 11:00 - 15:00
-            Rodízio de Pizza: 18:00 - 23:00
-        </span>
-        </div>
-        <a href="index.html">
-        © Parmegiana do Juca 2025
-        </a>
-    </footer>
+    <footer id="footer-container"></footer>
   </body>
+</html>
