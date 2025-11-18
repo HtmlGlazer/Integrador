@@ -1,3 +1,5 @@
+// aumenta a imagem  e a deixa transparente ao passar o mouse
+
 const imagem = document.querySelector("#imgPrincipal");
 
 if (imagem) {
@@ -13,6 +15,8 @@ if (imagem) {
   };
 }
 
+// saudação ao cliente ao digitar o nome
+
 const campo = document.querySelector("#nomeCliente");
 const mensagem = document.querySelector("#mensagemBoasVindas");
 
@@ -24,19 +28,4 @@ if (campo && mensagem) {
       mensagem.innerHTML = "";
     }
   };
-}
-
-const menuIcone = document.querySelector(".menu_icone");
-const menuToggle = document.querySelector("#menu_toggle");
-
-if (menuIcone && menuToggle) {
-  menuIcone.setAttribute("tabindex", "0");
-
-  menuIcone.addEventListener("keydown", (e) => {
-    if (e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
-      menuToggle.checked = !menuToggle.checked;
-      menuToggle.dispatchEvent(new Event("change"));
-    }
-  });
 }

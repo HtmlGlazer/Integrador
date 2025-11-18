@@ -1,3 +1,5 @@
+// função que gera a tabela
+
 async function carregarTabela(containerId, dados, headers) {
   try {
     const response = await fetch("components/tabela.html");
@@ -35,6 +37,8 @@ async function carregarTabela(containerId, dados, headers) {
       "<p>Erro ao carregar o cardápio. Tente novamente.</p>";
   }
 }
+
+// dados das tabelas
 
 const dadosCardapioPrincipal = [
   {
@@ -206,6 +210,8 @@ const dadosBebidasCervejas = [
   { tipo: "Itaipava", preco: "R$ 12,90" },
 ];
 const headersBebidasCervejas = ["Tipo", "Preço"];
+
+// chamada das tabelas por id
 
 document.addEventListener("DOMContentLoaded", () => {
   const containerPrincipal = document.getElementById(

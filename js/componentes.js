@@ -1,3 +1,5 @@
+//função que carrega componentes
+
 async function carregarComponente(caminho, seletor) {
   try {
     const resposta = await fetch(caminho);
