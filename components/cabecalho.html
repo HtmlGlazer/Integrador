@@ -1,77 +1,126 @@
-<div
-  class="Cabecalho"
-  role="banner"
-  aria-label="Cabeçalho com menu de navegação"
->
+<div class="Cabecalho" role="banner" aria-label="Cabeçalho do site">
   <div class="menu_hamburguer">
-    <input type="checkbox" id="menu_toggle" />
-    <label for="menu_toggle" class="menu_icone">
-      <div class="linha"></div>
-      <div class="linha"></div>
-      <div class="linha"></div>
+    <input
+      type="checkbox"
+      id="menu_toggle"
+      aria-label="Alternar menu de navegação"
+    />
+    <label for="menu_toggle" class="menu_icone" aria-label="Botão do menu">
+      <div class="linha" aria-hidden="true"></div>
+      <div class="linha" aria-hidden="true"></div>
+      <div class="linha" aria-hidden="true"></div>
     </label>
 
-    <div class="conteudo_menu">
+    <div
+      class="conteudo_menu"
+      role="dialog"
+      aria-label="Menu de navegação principal"
+    >
       <nav class="menu">
-        <ul>
-          <li>
-            <a href="index.html"
-              ><img src="img/logo_home_menu.svg" alt="Icone de casa" />
-              <div class="complementar">Tela inicial</div></a
-            >
+        <ul role="list">
+          <li role="listitem">
+            <a href="index.html">
+              <img
+                src="img/logos_menu/logo_home_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Tela inicial</div>
+            </a>
           </li>
-          <li>
-            <a href="cardapio.html"
-              ><img src="img/carddapio_logo.svg" alt="Prato e talheres" />
-              <div class="complementar">Nosso Cardápio</div></a
-            >
+          <li role="listitem">
+            <a href="cardapio.html">
+              <img
+                src="img/logos_menu/logo_cardapio_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Nosso Cardápio</div>
+            </a>
           </li>
-          <li>
-            <a href="sobre.html"
-              ><img src="img/logo_sobre_menu.svg" alt="Icone de informação" />
-              <div class="complementar">Sobre nós</div></a
-            >
+          <li role="listitem">
+            <a href="sobre.html">
+              <img
+                src="img/logos_menu/logo_sobre_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Sobre nós</div>
+            </a>
           </li>
-          <li>
-            <a href="contato.html"
-              ><img src="img/icone_contato.svg" alt="Telefone" />
-              <div class="complementar">Fale conosco</div></a
-            >
+          <li role="listitem">
+            <a href="contato.html">
+              <img
+                src="img/logos_menu/logo_contato_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Fale conosco</div>
+            </a>
           </li>
-          <li>
-            <a href="https://www.instagram.com/parmegianadojuca/"
-              ><img src="img/logo_insta_menu.svg" alt="logo do instagram" />
-              <div class="complementar">Nos acompanhe pelo instagram!</div></a
+          <li role="listitem">
+            <a
+              href="https://www.instagram.com/parmegianadojuca/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              <img
+                src="img/logos_menu/logo_insta_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Nos acompanhe pelo instagram!</div>
+            </a>
           </li>
-          <li>
-            <a href="https://www.facebook.com/parmegianadojucaof"
-              ><img src="img/logo_face_menu.svg" alt="logo do facebook" />
-              <div class="complementar">
-                Visite nossa página do facebook!
-              </div></a
+          <li role="listitem">
+            <a
+              href="https://www.facebook.com/parmegianadojucaof"
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              <img
+                src="img/logos_menu/logo_face_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Visite nossa página do facebook!</div>
+            </a>
           </li>
-          <li>
+          <li role="listitem">
             <a
               href="https://www.ifood.com.br/delivery/brasilia-df/parmegiana-do-juca-vicente-pires-setor-habitacional-vicente-pires/f351a74d-708f-49f9-9b18-430ab2d29819"
-              ><img src="img/logo_ifood_menu.svg" alt="logo do ifood" />
-              <div class="complementar">Faça-nos um pedido no Ifood!</div></a
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              <img
+                src="img/logos_menu/logo_ifood_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Faça-nos um pedido no Ifood!</div>
+            </a>
           </li>
-          <li>
-            <a href="https://wa.link/7bhdqj"
-              ><img src="img/logo_whatsapp_menu.svg" alt="logo do Whatsapp" />
-              <div class="complementar">Chame no Whatsapp!</div></a
+          <li role="listitem">
+            <a
+              href="https://wa.link/7bhdqj"
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              <img
+                src="img/logos_menu/logo_whatsapp_menu.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="complementar">Chame no Whatsapp!</div>
+            </a>
           </li>
         </ul>
       </nav>
     </div>
   </div>
   <img
-    src="img/logo_juca.jpg"
-    alt="logo da loja do Juca"
+    src="img/logos_icone/logo_juca.webp"
+    alt="Logo Parmegiana do Juca"
     width="150"
     height="150"
     class="logo_topo"

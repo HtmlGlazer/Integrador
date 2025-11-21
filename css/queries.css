@@ -67,22 +67,6 @@ TABLET (Min 768px)
     padding-right: var(--espacamento-tablet-lg);
   }
 
-  /* Article */
-  article {
-    margin-bottom: var(--espacamento-tablet-3xl);
-    padding: var(--espacamento-tablet-lg);
-  }
-
-  article h2 {
-    font-size: var(--fonte-tablet-2xl);
-    margin-bottom: var(--espacamento-tablet-md);
-    margin-top: var(--espacamento-tablet-lg);
-  }
-
-  article p {
-    margin-bottom: var(--espacamento-tablet-md);
-  }
-
   /* Títulos */
   .titulo {
     font-size: var(--fonte-tablet-3xl);
@@ -112,31 +96,6 @@ TABLET (Min 768px)
 
   .titulo_form {
     font-size: var(--fonte-tablet-lg);
-  }
-
-  .h2_servicos {
-    margin-bottom: var(--espacamento-tablet-md);
-    margin-top: var(--espacamento-tablet-lg);
-  }
-
-  .h3,
-  .h3_contatos {
-    font-size: var(--fonte-tablet-xl);
-    margin-bottom: var(--espacamento-tablet-md);
-  }
-
-  .h3_servicos {
-    margin-bottom: var(--espacamento-tablet-md);
-    margin-top: var(--espacamento-tablet-3xl);
-  }
-
-  .h1_pedidos {
-    font-size: var(--fonte-tablet-2xl);
-    margin-bottom: var(--espacamento-tablet-lg);
-    padding-bottom: var(--espacamento-tablet-md);
-    padding-top: var(--espacamento-tablet-md);
-    margin-right: var(--espacamento-tablet-lg);
-    margin-left: var(--espacamento-tablet-lg);
   }
 
   /* Imagens */
@@ -178,10 +137,6 @@ TABLET (Min 768px)
   .img_center_cardapio {
     margin-top: var(--espacamento-tablet-xs);
     margin-bottom: var(--espacamento-tablet-3xl);
-  }
-
-  .img_right_rodizio {
-    margin: var(--espacamento-tablet-lg) var(--espacamento-tablet-md) 0;
   }
 
   .flexbox_alinhamento {
@@ -346,22 +301,6 @@ DESKTOP (Min 1024px)
     padding-right: var(--espacamento-desktop-lg);
   }
 
-  /* Article */
-  article {
-    margin-bottom: var(--espacamento-desktop-3xl);
-    padding: var(--espacamento-desktop-lg);
-  }
-
-  article h2 {
-    font-size: var(--fonte-desktop-2xl);
-    margin-bottom: var(--espacamento-desktop-md);
-    margin-top: var(--espacamento-desktop-lg);
-  }
-
-  article p {
-    margin-bottom: var(--espacamento-desktop-md);
-  }
-
   /* Títulos */
   .titulo {
     font-size: var(--fonte-desktop-3xl);
@@ -391,31 +330,6 @@ DESKTOP (Min 1024px)
 
   .titulo_form {
     font-size: var(--fonte-desktop-lg);
-  }
-
-  .h2_servicos {
-    margin-bottom: var(--espacamento-desktop-md);
-    margin-top: var(--espacamento-desktop-lg);
-  }
-
-  .h3,
-  .h3_contatos {
-    font-size: var(--fonte-desktop-xl);
-    margin-bottom: var(--espacamento-desktop-md);
-  }
-
-  .h3_servicos {
-    margin-bottom: var(--espacamento-desktop-md);
-    margin-top: var(--espacamento-desktop-3xl);
-  }
-
-  .h1_pedidos {
-    font-size: var(--fonte-desktop-2xl);
-    margin-bottom: var(--espacamento-desktop-lg);
-    padding-bottom: var(--espacamento-desktop-md);
-    padding-top: var(--espacamento-desktop-md);
-    margin-right: var(--espacamento-desktop-lg);
-    margin-left: var(--espacamento-desktop-lg);
   }
 
   /* Imagens */
@@ -453,10 +367,6 @@ DESKTOP (Min 1024px)
   .img_center_cardapio {
     margin-top: var(--espacamento-desktop-xs);
     margin-bottom: var(--espacamento-desktop-3xl);
-  }
-
-  .img_right_rodizio {
-    margin: var(--espacamento-desktop-lg) var(--espacamento-desktop-md) 0;
   }
 
   .flexbox_alinhamento {
@@ -620,22 +530,6 @@ TELAS GRANDES (Min 1200px)
     padding-right: var(--espacamento-large-lg);
   }
 
-  /* Article */
-  article {
-    margin-bottom: var(--espacamento-large-3xl);
-    padding: var(--espacamento-large-lg);
-  }
-
-  article h2 {
-    font-size: var(--fonte-large-2xl);
-    margin-bottom: var(--espacamento-large-md);
-    margin-top: var(--espacamento-large-lg);
-  }
-
-  article p {
-    margin-bottom: var(--espacamento-large-md);
-  }
-
   /* Títulos */
   .titulo {
     font-size: var(--fonte-large-3xl);
@@ -665,31 +559,6 @@ TELAS GRANDES (Min 1200px)
 
   .titulo_form {
     font-size: var(--fonte-large-lg);
-  }
-
-  .h2_servicos {
-    margin-bottom: var(--espacamento-large-md);
-    margin-top: var(--espacamento-large-lg);
-  }
-
-  .h3,
-  .h3_contatos {
-    font-size: var(--fonte-large-xl);
-    margin-bottom: var(--espacamento-large-md);
-  }
-
-  .h3_servicos {
-    margin-bottom: var(--espacamento-large-md);
-    margin-top: var(--espacamento-large-3xl);
-  }
-
-  .h1_pedidos {
-    font-size: var(--fonte-large-2xl);
-    margin-bottom: var(--espacamento-large-lg);
-    padding-bottom: var(--espacamento-large-md);
-    padding-top: var(--espacamento-large-md);
-    margin-right: var(--espacamento-large-lg);
-    margin-left: var(--espacamento-large-lg);
   }
 
   /* Imagens */
@@ -728,10 +597,6 @@ TELAS GRANDES (Min 1200px)
   .img_center_cardapio {
     margin-top: var(--espacamento-large-xs);
     margin-bottom: var(--espacamento-large-3xl);
-  }
-
-  .img_right_rodizio {
-    margin: var(--espacamento-large-lg) var(--espacamento-large-md) 0;
   }
 
   .flexbox_alinhamento {
