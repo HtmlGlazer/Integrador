@@ -46,7 +46,6 @@ Estrutura de pastas:
         - Js: Contem os arquivos em Javascript, eles servem para a configuração de interações do usuário e modularização de componentes.
 
 Integrador/
-├── index.html
 ├── sobre.html
 ├── contato.html
 ├── cardapio.html
@@ -68,34 +67,35 @@ Integrador/
 │ └── colors.min.css
 ├── img/
 │ ├── imagens_reais/
-| ├── caixa_juca.webp
-| ├── ladodefora.webp
-| └── parmegiana.webp
+|   ├── caixa_juca.webp
+|   ├── ladodefora.webp
+|   └── parmegiana.webp
 │ ├── logos_icone/
-| ├── favicon.png
-| ├── favicon.svg
-| └── logo_juca.webp
+|   ├── favicon.png
+|   ├── favicon.svg
+|   └── logo_juca.webp
 │ ├── logos_menu/
-| ├── logo_cardapio_menu.svg
-| ├── logo_contato_menu.svg
-| ├── logo_face_menu.svg
-| ├── logo_home_menu.svg
-| ├── logo_ifood_menu.svg
-| ├── logo_insta_menu.svg
-| ├── logo_sobre_menu.svg
-| └── logo_whatsapp_menu.svg
+|   ├── logo_cardapio_menu.svg
+|   ├── logo_contato_menu.svg
+|   ├── logo_face_menu.svg
+|   ├── logo_home_menu.svg
+|   ├── logo_ifood_menu.svg
+|   ├── logo_insta_menu.svg
+|   ├── logo_sobre_menu.svg
+|   └── logo_whatsapp_menu.svg
 │ ├── outros/
-| ├── fundo_madeira.webp
-| └── logo_whatsapp_botao.webp
+|   ├── fundo_madeira.webp
+|   └── logo_whatsapp_botao.webp
 ├── js/
 │ ├── componentes.js
 │ ├── componentes.min.js
 │ ├── interacoes.js
 │ ├── interacoes.min.js
-│ └── tabelas.js
+│ ├── tabelas.js
 │ └── tabelas.min.js
 ├── docs/
-│ ├── rubricaDFE.pdf
+│ ├── index.html
+│ └──  rubricaDFE.pdf
 └── README.md
 
 Descrição do desenvolvimento do projeto:
