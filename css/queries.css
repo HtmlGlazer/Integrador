@@ -13,8 +13,33 @@ MOBILE (Max 768px) - Base já definida
   }
 
   .tabela_cardapio {
-    display: block;
+    display: table;
     overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: var(--espacamento-mobile-md) 0;
+  }
+
+  #tabela-bebidas-sucos-individuais,
+  #tabela-cardapio-baguetes,
+  #tabela-bebidas-sucos-jarra,
+  #tabela-bebidas-diversas,
+  #tabela-bebidas-cervejas {
+    background-color: transparent;
+    margin: var(--espacamento-mobile-md) 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #tabela-cardapio-baguetes .tabela_cardapio,
+  #tabela-bebidas-sucos-individuais .tabela_cardapio,
+  #tabela-bebidas-sucos-jarra .tabela_cardapio,
+  #tabela-bebidas-diversas .tabela_cardapio,
+  #tabela-bebidas-cervejas .tabela_cardapio {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
   }
 }
 
@@ -174,6 +199,13 @@ TABLET (Min 768px)
     font-size: var(--fonte-tablet-xl);
     padding: var(--espacamento-tablet-sm);
     margin-top: var(--espacamento-tablet-lg);
+  }
+
+  #tabela-bebidas-sucos-individuais,
+  #tabela-bebidas-sucos-jarra,
+  #tabela-bebidas-diversas,
+  #tabela-bebidas-cervejas {
+    margin: var(--espacamento-tablet-md) auto;
   }
 
   /* Formulário */
@@ -403,6 +435,13 @@ DESKTOP (Min 1024px)
     font-size: var(--fonte-desktop-xl);
     padding: var(--espacamento-desktop-sm);
     margin-top: var(--espacamento-desktop-lg);
+  }
+
+  #tabela-bebidas-sucos-individuais,
+  #tabela-bebidas-sucos-jarra,
+  #tabela-bebidas-diversas,
+  #tabela-bebidas-cervejas {
+    margin: var(--espacamento-desktop-md) auto;
   }
 
   /* Formulário */
@@ -635,6 +674,13 @@ TELAS GRANDES (Min 1200px)
     margin-top: var(--espacamento-large-lg);
   }
 
+  #tabela-bebidas-sucos-individuais,
+  #tabela-bebidas-sucos-jarra,
+  #tabela-bebidas-diversas,
+  #tabela-bebidas-cervejas {
+    margin: var(--espacamento-large-md) auto;
+  }
+
   /* Formulário */
   .container {
     padding: var(--espacamento-large-2xl);
@@ -696,7 +742,7 @@ TELAS GRANDES (Min 1200px)
   /* Rodapé */
   .rodape {
     font-size: var(--fonte-large-md);
-    padding: var(--espacamento-large-md);
+    padding: var(--fonte-large-md);
   }
 
   .rodape a,

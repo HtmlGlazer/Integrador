@@ -7,15 +7,16 @@ Configuração Base e Variáveis CSS (Custom Properties)
   box-sizing: border-box;
   font-family: "Merriweather", serif;
   scroll-behavior: smooth;
-
-  img {
-    max-width: 100%;
-    overflow: hidden;
-  }
 }
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 /*
@@ -30,7 +31,9 @@ body {
 }
 
 html {
-  height: 100%;
+  min-height: 100%;
+  height: auto;
+  overflow-y: auto;
 }
 
 body {
@@ -38,6 +41,8 @@ body {
   padding: 0;
   padding-top: 180px;
   min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   font-family: Serif Bold;
@@ -305,16 +310,23 @@ a:has(.img_principal) {
 }
 
 .img_sobre {
-  margin: var(--espacamento-mobile-md) var(--espacamento-mobile-lg);
-  max-width: 45%;
-  border-radius: var(--raio-lg);
-}
-
-.img_sobre {
   justify-self: center;
   max-width: 90%;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
+  border-radius: var(--raio-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espacamento-mobile-md);
+}
+
+.img_sobre img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
   border-radius: var(--raio-lg);
 }
 
@@ -333,14 +345,6 @@ a:has(.img_principal) {
   margin-bottom: var(--espacamento-mobile-3xl);
   max-width: 100%;
   height: auto;
-}
-
-.img_sobre {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--espacamento-mobile-md);
-  width: 100%;
 }
 
 .flexbox_alinhamento {
@@ -777,7 +781,7 @@ Estilos de Interação e Animações
 .campo_nome {
   padding: var(--espacamento-mobile-sm);
   border-radius: var(--raio-md);
-  border: 2px solid var(--Cor-Borda-Form);
+  border: 2px solid var(--Cor-Borda-Campo-Nome);
   font-size: var(--fonte-mobile-base);
   width: 100%;
   max-width: 400px;
@@ -790,6 +794,7 @@ Estilos de Interação e Animações
   color: var(--Cor-Texto-Fonte-Claro-1);
   text-align: center;
 }
+
 /*
 ==========================================
 Estilos de Rodapé (Footer)

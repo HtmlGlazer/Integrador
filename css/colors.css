@@ -30,7 +30,7 @@
       rgba(23, 22, 22, 0.99),
       rgba(1, 0, 3, 0.94)
     ),
-    url(../img/fundo_madeira.jpeg);
+    url(../img/outros/fundo_madeira.webp);
 
   /* Cores de Classe */
   --Cor-Da-Sombra-Da-Tabela: rgba(0, 0, 0, 0.4);
@@ -65,4 +65,5 @@
   --Cor-Botao-Topo-Fundo: var(--Cor-3);
   --Cor-Botao-Topo-Hover: var(--Cor-3);
   --Cor-Sombra-Botao-Topo: rgba(0, 0, 0, 0.3);
+  --Cor-Borda-Campo-Nome: var(--Cor-12);
 }

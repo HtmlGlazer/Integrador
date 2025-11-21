@@ -58,10 +58,14 @@ Integrador/
 │ ├── rodape.html
 │ └── tabela.html
 ├── css/
-│ ├── main.css
+│ ├── style.css
+│ ├── style.min.css
 │ ├── queries.css
+│ ├── queries.min.css
 │ ├── spacing.css
-│ └── colors.css
+│ ├── spacing.min.css
+│ ├── colors.css
+│ └── colors.min.css
 ├── img/
 │ ├── imagens_reais/
 | ├── caixa_juca.webp
@@ -85,8 +89,11 @@ Integrador/
 | └── logo_whatsapp_botao.webp
 ├── js/
 │ ├── componentes.js
+│ ├── componentes.min.js
 │ ├── interacoes.js
+│ ├── interacoes.min.js
 │ └── tabelas.js
+│ └── tabelas.min.js
 ├── docs/
 │ ├── rubricaDFE.pdf
 └── README.md
