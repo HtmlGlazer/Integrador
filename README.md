@@ -46,6 +46,7 @@ Estrutura de pastas:
         - Js: Contem os arquivos em Javascript, eles servem para a configuração de interações do usuário e modularização de componentes.
 
 Integrador/
+├── index.html
 ├── sobre.html
 ├── contato.html
 ├── cardapio.html
@@ -94,7 +95,6 @@ Integrador/
 │ ├── tabelas.js
 │ └── tabelas.min.js
 ├── docs/
-│ ├── index.html
 │ └──  rubricaDFE.pdf
 └── README.md
 
