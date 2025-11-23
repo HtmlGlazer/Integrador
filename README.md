@@ -32,7 +32,7 @@ Nome do comércio: Parmegiana do Juca
 
         Paleta de cor: 
      >decidi seguir uma paleta semelhante à logo da loja real (logo_juca.webp) junto dela, me baseei nas cores que encontrei de uma imagem de parmegiana (parmegiana.webp), algumas cores foram adicionadas conforme o projeto avançava, mas a base é essa, sem contar que elas estão seguindo as diretrizes de contraste da WCAG.
-    ![alt text](img/imagens_reais/parmegiana.webp) ![alt text](img/logos_icone/logo_juca.webp)
+    ![Prato principal do restaurante](img/imagens_reais/parmegiana.webp) ![Logo do restaurante](img/logos_icone/logo_juca.webp)
 
         Fonte: 
      > Sobre a fonte, fiquei em dúvida por um tempo, mas decidi escolher a Merriweather, ela é bastante legível e passa uma sensação "amigável".
@@ -40,7 +40,8 @@ Nome do comércio: Parmegiana do Juca
         Icones: 
      > Bom, em relação aos ícones, consegui encontrar um tutorial de "menu hamburguer" que simplesmente não usa javascript, por isso não tenho certeza se poderia ser de fato chamado disso. Embora não seja perfeito, ajuda bastante a centralizar as opções de navegação do usuário, as opções mais importantes ( cardápio ) ficam visíveis na tela inicial, enquanto o resto pode ser acessado por esse menu. O estilo de icone que escolhi foi o arredondado e cheio, mais uma vez para ampliar a sensação de familiaridade e conforto com o site.
 
-    - Objetivo (Empresa): O site seria usado principalmente como cardápio dentro do próprio restaurante, para acessibilidade do público, mesmo diante um dia lotado, ou uma dificuldade visual relacionada aos cardápios tradicionais. De forma secundária, ele poderia ser utilizado como cartão de apresentação da loja, na página de contato e no sobre tem um mapa direto do google mesmo, assim como um botão para pedir no ifood a comida, caso more perto e do whatsapp, para conversar diretamente com um atendente.
+        Objetivo (Empresa): 
+     > O site seria usado principalmente como cardápio dentro do próprio restaurante, para acessibilidade do público, mesmo diante um dia lotado, ou uma dificuldade visual relacionada aos cardápios tradicionais. De forma secundária, ele poderia ser utilizado como cartão de apresentação da loja, na página de contato e no sobre tem um mapa direto do google mesmo, assim como um botão para pedir no ifood a comida, caso more perto e do whatsapp, para conversar diretamente com um atendente.
 
 ## Estrutura de pastas
 
@@ -133,3 +134,26 @@ Deletei classes não utilizadas, devido às mudanças ao longo do desenvolviment
 
 
 ## Testes em múltiplos navegadores
+**Vamos fazer os seguintes testes nas páginas:**  
+- visualização de todas as páginas
+- verificação de erros críticos
+- teste de links
+- teste de formulário
+- teste de media queries.
+
+A maioria deles vai ser repetido na próxima sessão, devido à natureza desse tipo de teste.
+
+ **Google Chrome:**
+- visualização de todas as páginas
+- verificação de erros críticos
+- teste de links
+- teste de formulário
+- teste de media queries.
+
+
+ **Mozilla Firefox:**
+- visualização de todas as páginas
+- verificação de erros críticos
+- teste de links
+- teste de formulário
+- teste de media queries.
