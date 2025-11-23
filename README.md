@@ -32,8 +32,7 @@ Nome do comércio: Parmegiana do Juca
 
         Paleta de cor: 
      >decidi seguir uma paleta semelhante à logo da loja real (logo_juca.webp) junto dela, me baseei nas cores que encontrei de uma imagem de parmegiana (parmegiana.webp), algumas cores foram adicionadas conforme o projeto avançava, mas a base é essa, sem contar que elas estão seguindo as diretrizes de contraste da WCAG.
-        [Imagem de parmegiana](/img/imagens_reais/parmegiana.webp)
-        [Imagem da logo](/img/logo_icone/logo_juca.webp)
+    ![alt text](img/imagens_reais/parmegiana.webp) ![alt text](img/logos_icone/logo_juca.webp)
 
         Fonte: 
      > Sobre a fonte, fiquei em dúvida por um tempo, mas decidi escolher a Merriweather, ela é bastante legível e passa uma sensação "amigável".
