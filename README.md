@@ -21,26 +21,26 @@ Nome do comércio: Parmegiana do Juca
         Escolha de restaurante:   
     > É um negócio em crescimento, recentemente expandiram perto da casa do Paulo, embora eles tivessem perfis nas redes sociais, não havia um site próprio.
 
-        Publico alvo: 
+        Publico alvo:  
      > A localidade é bastante casual, então, são aquelas famílias, pessoas cansadas de uma semana de trabalho, isso é: aqueles que desejam uma refeição mais simples, sem perder o gosto de sair de casa para comer. De maneira mais específica, definiria esse público alvo como adultos de classe média, abrangendo-o para famílias e casais.
 
-        Objetivo: 
+        Objetivo:  
      > Nosso objetivo era criar um site que se adequasse às necessidades atuais do restaurante, nesse caso, a integração nas redes, o site seria de certa forma, o passo final para isso.
 
-        Tema: 
+        Tema:  
      > A temática escolhida para o site foi de forno, com um fundo de lenha, e toda atmosfera refletindo uma comida sendo assada.
 
-        Paleta de cor: 
+        Paleta de cor:  
      >decidi seguir uma paleta semelhante à logo da loja real (logo_juca.webp) junto dela, me baseei nas cores que encontrei de uma imagem de parmegiana (parmegiana.webp), algumas cores foram adicionadas conforme o projeto avançava, mas a base é essa, sem contar que elas estão seguindo as diretrizes de contraste da WCAG.
     ![Prato principal do restaurante](img/imagens_reais/parmegiana.webp) ![Logo do restaurante](img/logos_icone/logo_juca.webp)
 
-        Fonte: 
+        Fonte:  
      > Sobre a fonte, fiquei em dúvida por um tempo, mas decidi escolher a Merriweather, ela é bastante legível e passa uma sensação "amigável".
 
-        Icones: 
+        Icones:  
      > Bom, em relação aos ícones, consegui encontrar um tutorial de "menu hamburguer" que simplesmente não usa javascript, por isso não tenho certeza se poderia ser de fato chamado disso. Embora não seja perfeito, ajuda bastante a centralizar as opções de navegação do usuário, as opções mais importantes ( cardápio ) ficam visíveis na tela inicial, enquanto o resto pode ser acessado por esse menu. O estilo de icone que escolhi foi o arredondado e cheio, mais uma vez para ampliar a sensação de familiaridade e conforto com o site.
 
-        Objetivo (Empresa): 
+        Objetivo (Empresa):  
      > O site seria usado principalmente como cardápio dentro do próprio restaurante, para acessibilidade do público, mesmo diante um dia lotado, ou uma dificuldade visual relacionada aos cardápios tradicionais. De forma secundária, ele poderia ser utilizado como cartão de apresentação da loja, na página de contato e no sobre tem um mapa direto do google mesmo, assim como um botão para pedir no ifood a comida, caso more perto e do whatsapp, para conversar diretamente com um atendente.
 
 ## Estrutura de pastas
@@ -263,8 +263,6 @@ Comunicava pelo whatsapp
 - Como vocês superaram? Fazendo o mais rápido possivel
 - Se pudesse voltar no tempo, o que faria diferente? Nada.
 
-
-
 ## Reflexão da dupla
 
 **Evolução do Projeto:** O projeto se tornou principalmente mais organizado e acessível, ele também deve carregar de forma relativamente rápida, devido às otimizações dele, o resultado final atende de forma relativamente agradável à meta inicial.
@@ -293,7 +291,7 @@ Comunicava pelo whatsapp
 **Escolha de fonte:**
 	- https://fonts.google.com/specimen/Merriweather
 
-**Imagens ( Não icones ):**
+Imagens ( Não icones ):**
 	- Imagem sobre: https://img.restaurantguru.com/r7e2-Parmegiana-do-Juca-interior.jpg
 	- Fundo da página: https://stock.adobe.com/br/images/brown-wood-texture-abstract-background/72383843?clickref=1110lwgyUgy&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=bany0
 	- Imagem parmegiana: https://www.shutterstock.com/pt/image-photo/chicken-parmigiana-tomatoes-378525874?trackingId=58f4f83a-c2c6-4c62-b7fd-2dfc74148f8a
