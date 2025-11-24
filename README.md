@@ -261,11 +261,13 @@ Organização
 Modularizar
 - O que você domina melhor agora comparado ao início do projeto?
 Html
+
 **Aprendizados de Processo:**
 - Como foi trabalhar em dupla? Quais foram os desafios?
 Bom. Entregar o trabalho no tempo limite
 - Como vocês organizaram as tarefas e a comunicação?
 Comunicava pelo whatsapp
+
 **Desafios Enfrentados:**
 - Qual foi o maior desafio do projeto? Tempo de entrega
 - Como vocês superaram? Fazendo o mais rápido possivel
