@@ -214,5 +214,19 @@ Imagens de demonstração estão descritas na pasta docs/google_chrome/links_goo
 
 Interações: Aqui estão os testes realizados em relação as interações de estados especiais das classes interativas
 Botão principal: Esses botões têm a classe botao_principal, em hover, ele alterna as cores de texto, fundo e borda, em focus ele faz o mesmo, com uma "outline" branca em volta, simbolizando foco, ao pressionar um desses botões em telas menores, o efeito de hover é aplicado ao último pressionado, identificando a ação escolhida.
+![alt text](image-4.png)![alt text](image-5.png)
+Saudação: Esse campo tem a classe campo_nome, exclusiva da saudação na página index, ela identifica o cliente, em hover, assim como em focus, ela entrelaça a caixa de texto com uma "outline" branca em volta, simbolizando foco, ao escrever dentro da tela, um texto de apresentação aparece, cuja persistência ocorre, mesmo na mudança de telas.
+![alt text](image-6.png)
+Menu: Ao interagir com o menu hamburguer, são abertas as opções de escolha de ramificações do site, ao passar o mouse sobre alguma delas, sua descrição fica demarcada em branco, ao utilizar a navegação por teclado, surge um outline em volta da opção selecionada, para telas menores ( celulares) o texto fica oculto, dando maior foco aos icones descritivos.
+![alt text](image-7.png)![alt text](image-8.png)
+Botão de whatsapp - Contato: Ele serve de forma alternativa ao forumlário, para contato com a loja, no site atual, é a única forma, devido a ausência de backend para o forumlário, ao passar o mouse sobre esse item de interação, suas cores alternam, como no botão principal, em focus surge um outline em volta dele.
+![alt text](image-9.png)
 - **teste de formulário:**
+ Verificação de requerimento, finalização do formulário e estados
+Imagens de demonstração estão descritas na pasta docs/google_chrome/form como (ação)_form_g.jpeg
+
+Item em foco/ativo: Surge um outline preto que engloba o item inteiro do formulário, contrastando seu interior claro, assim permitindo a compreensão do usuário, além disso, surge uma linha piscando dentro do item do formulário, indicando necessidade de escrita.
+![alt text](image-11.png)
 - **teste de media queries.:**
+Semelhante ao teste de visualização, mas com detalhes de mudanças de display na página, caso ouver alguma além das mudanças de tamanho de fonte, vou estar excluindo a visualização das media queries de 1200+px pois as prints até agora foram nessa largura de página
+![alt text](image-12.png)![alt text](image-13.png)![alt text](image-14.png)![alt text](image-15.png)![alt text](image-16.png)
