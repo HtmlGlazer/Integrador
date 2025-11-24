@@ -251,3 +251,22 @@ Semelhante ao teste de visualização, mas com detalhes de mudanças de display 
 - Como pretendem aplicar essas sugestões?
 
 **Relevância para o Negócio:** O site certamente agregaria valor ao negócio original, seja ele usado como uma apresentação para o restaurante, ou um site menu em si, ele funciona de diversas maneiras, infelizmente não somos psíquicos de saber o que o dono diria sobre o site, além disso, eu ( Lucas ) pessoalmente não usaria esse trabalho em meu portifólio porque não sinto que ainda chega em nível profissional
+
+## Reflexão Individual - Paulo Vitor
+
+**Aprendizados Técnicos:**
+- Quais foram as principais habilidades técnicas que você desenvolveu?
+Organização
+- Qual foi a tecnologia ou conceito mais desafiador de aprender?
+Modularizar
+- O que você domina melhor agora comparado ao início do projeto?
+Html
+**Aprendizados de Processo:**
+- Como foi trabalhar em dupla? Quais foram os desafios?
+Bom. Entregar o trabalho no tempo limite
+- Como vocês organizaram as tarefas e a comunicação?
+Comunicava pelo whatsapp
+**Desafios Enfrentados:**
+- Qual foi o maior desafio do projeto? Tempo de entrega
+- Como vocês superaram? Fazendo o mais rápido possivel
+- Se pudesse voltar no tempo, o que faria diferente? Nada.
