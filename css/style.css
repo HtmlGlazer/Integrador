@@ -533,68 +533,6 @@ td {
 Estilos de Formulário ( Contato )
 ==========================================
 */
-.body_pedidos {
-  font-family: Serif Bold;
-  background-color: var(--Cor-Body-Pedidos);
-}
-
-.container {
-  display: flex;
-  background-color: var(--Cor-Texto-Fonte-Claro-1);
-  padding: var(--espacamento-mobile-2xl);
-  gap: var(--espacamento-mobile-md);
-  align-items: flex-start;
-  border-radius: var(--raio-xl);
-  margin-right: var(--espacamento-mobile-3xl);
-  margin-left: var(--espacamento-mobile-3xl);
-}
-
-.textos {
-  display: flex;
-  flex-direction: column;
-  gap: var(--espacamento-mobile-sm);
-  flex: 1;
-}
-
-.textos input,
-.textos select,
-.textos textarea {
-  padding: var(--espacamento-mobile-md);
-  border-radius: var(--raio-lg);
-  border: none;
-  font-size: var(--fonte-mobile-md);
-  width: 100%;
-}
-
-.textos select {
-  appearance: none;
-  cursor: pointer;
-}
-
-.textos textarea {
-  height: 120px;
-  resize: none;
-}
-
-.enviar {
-  display: flex;
-  align-self: end;
-}
-
-.enviar button {
-  padding: var(--espacamento-mobile-sm) var(--espacamento-mobile-md);
-  font-size: var(--fonte-mobile-base);
-  border: none;
-  border-radius: var(--raio-md);
-  background-color: var(--Cor-Botao-Enviar);
-  color: var(--Cor-Texto-Fonte-Claro-2);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.enviar button:hover {
-  background-color: var(--Cor-Botao-Enviar-Hover);
-}
 
 .form {
   background: var(--Cor-Fundo-Form);
@@ -642,7 +580,7 @@ Estilos de Formulário ( Contato )
 }
 
 .whatsapp_action {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   gap: var(--espacamento-mobile-sm);
   align-items: center;
@@ -657,6 +595,8 @@ Estilos de Formulário ( Contato )
   background: var(--Cor-Whatsapp-Fundo);
   transition: all 0.5s ease-in-out;
   cursor: pointer;
+  text-decoration: none;
+  width: fit-content;
 }
 
 .whatsapp_action:hover,
@@ -665,13 +605,16 @@ Estilos de Formulário ( Contato )
   border-color: var(--Cor-Whatsapp-Borda-Invert);
 }
 
+.whatsapp_action:focus {
+  background: var(--Cor-Whatsapp-Fundo-Invert);
+  border-color: var(--Cor-Whatsapp-Borda-Invert);
+  outline: 3px solid var(--Cor-Texto-Fonte-Claro-2);
+  outline-offset: 3px;
+}
+
 .whatsapp_action img {
   width: var(--espacamento-mobile-xl);
   height: var(--espacamento-mobile-xl);
-}
-
-a:has(.whatsapp_action) {
-  text-decoration: none;
 }
 
 /*

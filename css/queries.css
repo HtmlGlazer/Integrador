@@ -209,32 +209,7 @@ TABLET (Min 768px)
   }
 
   /* Formulário */
-  .container {
-    padding: var(--espacamento-tablet-2xl);
-    gap: var(--espacamento-tablet-md);
-    margin-right: var(--espacamento-tablet-3xl);
-    margin-left: var(--espacamento-tablet-3xl);
-  }
 
-  .textos {
-    gap: var(--espacamento-tablet-sm);
-  }
-
-  .textos input,
-  .textos select,
-  .textos textarea {
-    padding: var(--espacamento-tablet-md);
-    font-size: var(--fonte-tablet-md);
-  }
-
-  .enviar button {
-    padding: var(--espacamento-tablet-sm) var(--espacamento-tablet-md);
-    font-size: var(--fonte-tablet-base);
-  }
-
-  .form {
-    padding: var(--espacamento-tablet-md);
-  }
 
   .form input,
   .form textarea {
@@ -445,32 +420,7 @@ DESKTOP (Min 1024px)
   }
 
   /* Formulário */
-  .container {
-    padding: var(--espacamento-desktop-2xl);
-    gap: var(--espacamento-desktop-md);
-    margin-right: var(--espacamento-desktop-3xl);
-    margin-left: var(--espacamento-desktop-3xl);
-  }
 
-  .textos {
-    gap: var(--espacamento-desktop-sm);
-  }
-
-  .textos input,
-  .textos select,
-  .textos textarea {
-    padding: var(--espacamento-desktop-md);
-    font-size: var(--fonte-desktop-md);
-  }
-
-  .enviar button {
-    padding: var(--espacamento-desktop-sm) var(--espacamento-desktop-md);
-    font-size: var(--fonte-desktop-base);
-  }
-
-  .form {
-    padding: var(--espacamento-desktop-md);
-  }
 
   .form input,
   .form textarea {
@@ -682,32 +632,6 @@ TELAS GRANDES (Min 1200px)
   }
 
   /* Formulário */
-  .container {
-    padding: var(--espacamento-large-2xl);
-    gap: var(--espacamento-large-md);
-    margin-right: var(--espacamento-large-3xl);
-    margin-left: var(--espacamento-large-3xl);
-  }
-
-  .textos {
-    gap: var(--espacamento-large-sm);
-  }
-
-  .textos input,
-  .textos select,
-  .textos textarea {
-    padding: var(--espacamento-large-md);
-    font-size: var(--fonte-large-md);
-  }
-
-  .enviar button {
-    padding: var(--espacamento-large-sm) var(--espacamento-large-md);
-    font-size: var(--fonte-large-base);
-  }
-
-  .form {
-    padding: var(--espacamento-large-md);
-  }
 
   .form input,
   .form textarea {
