@@ -207,7 +207,12 @@ Deletei classes não utilizadas, devido às mudanças ao longo do desenvolviment
  ***Mozilla Firefox***
 - **visualização de todas as páginas e erros críticos:** Em uma primeira verificação, com o menu de inspeção de elemento, verifiquei o comportamento da página, o layout estava adequado, sem problemas, a página não quebrou em momento algum.  
 *Imagens de demonstração estão descritas na pasta docs como pag_(nome da parte)_g.jpeg*
-![alt text](image.png)
+![alt text](image.png)![alt text](image-1.png)![alt text](image-2.png)![alt text](image-3.png)
 - **teste de links:**
+Para essa parte dos testes, vou dividi-la entre interações( que descreve como os botões de interação da página se comportam na ação do usuário), botões de links dentro do site ( ou seja, para páginas diferentes do site) , botões de acesso a informação ( voltar ao topo, conteúdo principal ) e links externos ( redes sociais, ifood e whatsapp )
+Imagens de demonstração estão descritas na pasta docs/google_chrome/links_google/pasta_do_teste como (ação)_(nome do botão)_g.jpeg
+
+Interações: Aqui estão os testes realizados em relação as interações de estados especiais das classes interativas
+Botão principal: Esses botões têm a classe botao_principal, em hover, ele alterna as cores de texto, fundo e borda, em focus ele faz o mesmo, com uma "outline" branca em volta, simbolizando foco, ao pressionar um desses botões em telas menores, o efeito de hover é aplicado ao último pressionado, identificando a ação escolhida.
 - **teste de formulário:**
 - **teste de media queries.:**
