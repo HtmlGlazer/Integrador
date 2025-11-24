@@ -499,7 +499,7 @@ td {
 .nav_cardapio,
 .nav_cardapio:visited {
   text-decoration: none;
-  background: var(--Cor-Botao-Cardapio);
+  background-color: var(--Cor-Botao-Cardapio);
   border: 5px solid var(--Cor-Borda-Cardapio);
   border-radius: var(--raio-2xl);
   color: var(--Cor-Texto-Fonte-Claro-2);
@@ -507,11 +507,22 @@ td {
   text-shadow: 1px 1px var(--Cor-Texto-Fonte-1);
   margin-top: var(--espacamento-mobile-lg);
   padding: var(--espacamento-mobile-sm);
-  transition: all 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
   cursor: pointer;
 }
 
-.nav_cardapio:hover,
+.nav_cardapio:hover {
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
+}
+
+.nav_cardapio:focus {
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
+  outline: 3px solid var(--Cor-Texto-Fonte-Claro-2);
+  outline-offset: 3px;
+}
+
 .nav_cardapio:active {
   background-color: var(--Cor-Botao-Cardapio-Invert);
   border-color: var(--Cor-Borda-Cardapio-Invert);
@@ -675,44 +686,57 @@ Estilos de Interação e Animações
   align-self: center;
   justify-self: center;
   grid-column: 1/-1;
-  background: var(--Cor-Botao-Cardapio);
+  background-color: var(--Cor-Botao-Cardapio);
   border: 5px solid var(--Cor-Borda-Cardapio);
   border-radius: var(--raio-2xl);
   color: var(--Cor-Texto-Fonte-Claro-2);
   font-size: var(--fonte-mobile-xl);
   text-shadow: 1px 1px var(--Cor-Texto-Fonte-1);
   padding: var(--espacamento-mobile-md);
-  transition: all 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
   cursor: pointer;
   display: inline-block;
   text-align: center;
   width: fit-content;
 }
 
-.botao_principal:hover,
-.botao_principal:active,
-.botao_principal:focus {
+.botao_principal:hover {
   background-color: var(--Cor-Botao-Cardapio-Invert);
   border-color: var(--Cor-Borda-Cardapio-Invert);
 }
 
 .botao_principal:focus {
-  outline: 3px solid var(--Cor-Texto-Fonte-Claro-2);
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
+  outline: 3px solid var(--Cor-5);
   outline-offset: 3px;
 }
 
-#voltar_topo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: var(--espacamento-mobile-xl);
-  margin-bottom: var(--espacamento-mobile-xl);
-  width: fit-content;
+.botao_principal:active {
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
 }
 
-#conteudo_principal {
+.nav_cardapio:hover {
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
+}
+
+.nav_cardapio:focus {
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
+  outline: 3px solid var(--Cor-5);
+  outline-offset: 3px;
+}
+
+.nav_cardapio:active {
+  background-color: var(--Cor-Botao-Cardapio-Invert);
+  border-color: var(--Cor-Borda-Cardapio-Invert);
+}
+
+#voltar_topo,
+#conteudo_principal,
+#conteudo_inicial {
   display: flex;
   align-items: center;
   justify-content: center;
