@@ -230,3 +230,24 @@ Item em foco/ativo: Surge um outline preto que engloba o item inteiro do formul�
 - **teste de media queries.:**
 Semelhante ao teste de visualização, mas com detalhes de mudanças de display na página, caso ouver alguma além das mudanças de tamanho de fonte, vou estar excluindo a visualização das media queries de 1200+px pois as prints até agora foram nessa largura de página
 ![alt text](image-12.png)![alt text](image-13.png)![alt text](image-14.png)![alt text](image-15.png)![alt text](image-16.png)
+
+
+## Reflexão Individual - Lucas Ferreira
+
+
+**Aprendizados Técnicos:** Aprendi bastante sobre cada um dos conceitos associados ao front end, mas principalmente sobre html, css e o rigor técnico necessário para a criação de bons sites, como já disse antes em outras partes do projeto, javascript de longe, não é meu forte.
+
+**Aprendizados de Processo:** Eu fiz a maior parte do site sem ajuda, quando falo no singular quer dizer que fiz praticamente sem auxílio o tópico, mas alguns tópicos aqui e ali realmente foram necessários serem pedidos, posso certamente dar crédito a ele pelos testes no firefox, tabelas, a base de algumas das funções, como os botões de voltar ao topo e conteudo principal, em geral, eu sinto que poderia ter havido mais cooperação, visto que me cansei muito.  
+
+**Desafios Enfrentados:** O maior desafio sem duvidas é a falta de tempo para fazer esse trabalho assim como os outros, não é o tipo de problema que pode ser resolvido facilmente, seria necessária uma mudança completa de vida, mas sem dúvidas, começar as coisas mais cedo em alguns dos momentos teria ajudado bastante
+
+## Reflexão da dupla
+
+**Evolução do Projeto:** O projeto se tornou principalmente mais organizado e acessível, ele também deve carregar de forma relativamente rápida, devido às otimizações dele, o resultado final atende de forma relativamente agradável à meta inicial.
+
+**Feedbacks Recebidos:** Não recebemos ainda
+- O que vocês aprenderam com a avaliação dos colegas?
+- Quais feedbacks foram mais úteis?
+- Como pretendem aplicar essas sugestões?
+
+**Relevância para o Negócio:** O site certamente agregaria valor ao negócio original, seja ele usado como uma apresentação para o restaurante, ou um site menu em si, ele funciona de diversas maneiras, infelizmente não somos psíquicos de saber o que o dono diria sobre o site, além disso, eu ( Lucas ) pessoalmente não usaria esse trabalho em meu portifólio porque não sinto que ainda chega em nível profissional
