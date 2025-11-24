@@ -207,6 +207,7 @@ Deletei classes não utilizadas, devido às mudanças ao longo do desenvolviment
  ***Mozilla Firefox***
 - **visualização de todas as páginas e erros críticos:** Em uma primeira verificação, com o menu de inspeção de elemento, verifiquei o comportamento da página, o layout estava adequado, sem problemas, a página não quebrou em momento algum.  
 *Imagens de demonstração estão descritas na pasta docs como pag_(nome da parte)_g.jpeg*
+![alt text](image.png)
 - **teste de links:**
 - **teste de formulário:**
 - **teste de media queries.:**
