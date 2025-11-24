@@ -241,16 +241,6 @@ Semelhante ao teste de visualização, mas com detalhes de mudanças de display 
 
 **Desafios Enfrentados:** O maior desafio sem duvidas é a falta de tempo para fazer esse trabalho assim como os outros, não é o tipo de problema que pode ser resolvido facilmente, seria necessária uma mudança completa de vida, mas sem dúvidas, começar as coisas mais cedo em alguns dos momentos teria ajudado bastante
 
-## Reflexão da dupla
-
-**Evolução do Projeto:** O projeto se tornou principalmente mais organizado e acessível, ele também deve carregar de forma relativamente rápida, devido às otimizações dele, o resultado final atende de forma relativamente agradável à meta inicial.
-
-**Feedbacks Recebidos:** Não recebemos ainda
-- O que vocês aprenderam com a avaliação dos colegas?
-- Quais feedbacks foram mais úteis?
-- Como pretendem aplicar essas sugestões?
-
-**Relevância para o Negócio:** O site certamente agregaria valor ao negócio original, seja ele usado como uma apresentação para o restaurante, ou um site menu em si, ele funciona de diversas maneiras, infelizmente não somos psíquicos de saber o que o dono diria sobre o site, além disso, eu ( Lucas ) pessoalmente não usaria esse trabalho em meu portifólio porque não sinto que ainda chega em nível profissional
 
 ## Reflexão Individual - Paulo Vitor
 
@@ -272,3 +262,39 @@ Comunicava pelo whatsapp
 - Qual foi o maior desafio do projeto? Tempo de entrega
 - Como vocês superaram? Fazendo o mais rápido possivel
 - Se pudesse voltar no tempo, o que faria diferente? Nada.
+
+
+
+## Reflexão da dupla
+
+**Evolução do Projeto:** O projeto se tornou principalmente mais organizado e acessível, ele também deve carregar de forma relativamente rápida, devido às otimizações dele, o resultado final atende de forma relativamente agradável à meta inicial.
+
+**Feedbacks Recebidos:** Não recebemos ainda
+- O que vocês aprenderam com a avaliação dos colegas?
+- Quais feedbacks foram mais úteis?
+- Como pretendem aplicar essas sugestões?
+
+**Relevância para o Negócio:** O site certamente agregaria valor ao negócio original, seja ele usado como uma apresentação para o restaurante, ou um site menu em si, ele funciona de diversas maneiras, infelizmente não somos psíquicos de saber o que o dono diria sobre o site, além disso, eu ( Lucas ) pessoalmente não usaria esse trabalho em meu portifólio porque não sinto que ainda chega em nível profissional
+
+## Créditos/Ferramentas utilizadas:
+
+**Icones:**
+	- https://www.flaticon.com
+	- https://www.svgrepo.com
+	- https://br.freepik.com
+	- https://fonts.google.com/icons
+	- https://iconscout.com
+
+**Escolha de cores:**
+	- https://colorshark.io
+	- https://colordesigner.io
+	- https://coolors.co
+
+**Escolha de fonte:**
+	- https://fonts.google.com/specimen/Merriweather
+
+**Imagens ( Não icones ):**
+	- Imagem sobre: https://img.restaurantguru.com/r7e2-Parmegiana-do-Juca-interior.jpg
+	- Fundo da página: https://stock.adobe.com/br/images/brown-wood-texture-abstract-background/72383843?clickref=1110lwgyUgy&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=bany0
+	- Imagem parmegiana: https://www.shutterstock.com/pt/image-photo/chicken-parmigiana-tomatoes-378525874?trackingId=58f4f83a-c2c6-4c62-b7fd-2dfc74148f8a
+	- Logo: https://www.instagram.com/parmegianadojuca/
