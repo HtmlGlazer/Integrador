@@ -231,7 +231,6 @@ Item em foco/ativo: Surge um outline preto que engloba o item inteiro do formul�
 Semelhante ao teste de visualização, mas com detalhes de mudanças de display na página, caso ouver alguma além das mudanças de tamanho de fonte, vou estar excluindo a visualização das media queries de 1200+px pois as prints até agora foram nessa largura de página
 ![alt text](image-12.png)![alt text](image-13.png)![alt text](image-14.png)![alt text](image-15.png)![alt text](image-16.png)
 
-
 ## Reflexão Individual - Lucas Ferreira
 
 
