@@ -61,11 +61,14 @@ Integrador/
 ├── cardapio_sanduiches.html
 ├── cardapio_bebidas.html
 ├── cardapio_rodizio.html
-├── componentes/
+├── README.md
+│
+├── 📁 componentes/
 │   ├── cabecalho.html
 │   ├── rodape.html
 │   └── tabela.html
-├── css/
+│
+├── 📁 css/
 │   ├── style.css
 │   ├── style.min.css
 │   ├── queries.css
@@ -74,16 +77,19 @@ Integrador/
 │   ├── spacing.min.css
 │   ├── colors.css
 │   └── colors.min.css
-├── img/
-│   ├── imagens_reais/
+│
+├── 📁 img/
+│   ├── 📁 imagens_reais/
 │   │   ├── caixa_juca.webp
 │   │   ├── ladodefora.webp
 │   │   └── parmegiana.webp
-│   ├── logos_icone/
+│   │
+│   ├── 📁 logos_icone/
 │   │   ├── favicon.png
 │   │   ├── favicon.svg
 │   │   └── logo_juca.webp
-│   ├── logos_menu/
+│   │
+│   ├── 📁 logos_menu/
 │   │   ├── logo_cardapio_menu.svg
 │   │   ├── logo_contato_menu.svg
 │   │   ├── logo_face_menu.svg
@@ -92,19 +98,126 @@ Integrador/
 │   │   ├── logo_insta_menu.svg
 │   │   ├── logo_sobre_menu.svg
 │   │   └── logo_whatsapp_menu.svg
-│   └── outros/
+│   │
+│   └── 📁 outros/
 │       ├── fundo_madeira.webp
 │       └── logo_whatsapp_botao.webp
-├── js/
+│
+├── 📁 js/
 │   ├── componentes.js
 │   ├── componentes.min.js
 │   ├── interacoes.js
 │   ├── interacoes.min.js
 │   ├── tabelas.js
 │   └── tabelas.min.js
-├── docs/
-│   └── rubricaDFE.pdf
-└── README.md
+│
+└── 📁 docs/
+    ├── rubricaDFE.pdf
+    │
+    ├── 📁 avaliacoes_enviadas/
+    │   ├── rubricaDFE Desafio CT Arena 56 avaliação.pdf
+    │   └── rubricaDFE Navalha de ouro avaliação.pdf
+    │
+    ├── 📁 avaliacoes_recebidas/
+    │   └── Rubrica Avaliador Navalha de ouro.pdf
+    │
+    └── 📁 testes_navegadores/
+        ├── 📁 mozilla_firefox/
+        │   ├── image_1.png
+        │   ├── image_2.png
+        │   ├── image_3.png
+        │   ├── image_4.png
+        │   ├── image_5.png
+        │   ├── image_6.png
+        │   ├── image_7.png
+        │   ├── image_8.png
+        │   ├── image_9.png
+        │   ├── image_10.png
+        │   ├── image_11.png
+        │   ├── image_12.png
+        │   ├── image_13.png
+        │   ├── image_14.png
+        │   ├── image_15.png
+        │   ├── image_16.png
+        │   └── image_17.png
+        │
+        └── 📁 google_chrome/
+            ├── 📁 form/
+            │   ├── active_form_g
+            │   ├── hover_form_g
+            │   └── try_form_g
+            │
+            ├── 📁 links_google/
+            │   ├── 📁 acesso_info/
+            │   │   ├── principal_contato_g
+            │   │   ├── principal_principal_g
+            │   │   ├── principal_sobre_g
+            │   │   ├── principal_tabela_g
+            │   │   └── voltar_topo_g
+            │   │
+            │   ├── 📁 botoes_link/
+            │   │   ├── cardapio_menu_g
+            │   │   ├── cardapio_principal_g
+            │   │   ├── contato_menu_g
+            │   │   ├── copyright_g
+            │   │   ├── home_menu_g
+            │   │   ├── imgp_principal_g
+            │   │   └── sobre_menu_g
+            │   │
+            │   ├── 📁 interacoes/
+            │   │   ├── action_saudacao_g
+            │   │   ├── active_saudacao_g
+            │   │   ├── focus_imgp_g
+            │   │   ├── focus_menu_g
+            │   │   ├── focus_principal_g
+            │   │   ├── focus_whatsapp_g
+            │   │   ├── hover_imgp_g
+            │   │   ├── hover_menu_g
+            │   │   ├── hover_principal_g
+            │   │   ├── hover_whatsapp_g
+            │   │   ├── mobile_menu_g
+            │   │   └── press_principal_g
+            │   │
+            │   └── 📁 links_externos/
+            │       ├── face_menu_g
+            │       ├── ifood_menu_g
+            │       ├── ifood_principal_g
+            │       ├── insta_menu_g
+            │       ├── map_contato_g
+            │       ├── whats_contato_g
+            │       ├── whats_menu_g
+            │       └── whats_principal_g
+            │
+            ├── 📁 media_queries/
+            │   ├── 📁 cardapio/
+            │   │   ├── 768px_sobre_g
+            │   │   ├── 1024px_sobre_g
+            │   │   └── menos_de_768px_sobre_g
+            │   │
+            │   ├── 📁 contato/
+            │   │   ├── 768px_contato_g
+            │   │   ├── 1024px_contato_g
+            │   │   └── menos_de_768px_contato_g
+            │   │
+            │   ├── 📁 menu/
+            │   │   ├── 768px_menu_g
+            │   │   └── menos_de_768px_menu_g
+            │   │
+            │   └── 📁 principal/
+            │       ├── 768px_principal_g
+            │       ├── 1024px_principal_g
+            │       └── menos_de_768px_principal_g
+            │
+            ├── 📁 sobre/
+            │   ├── 768px_sobre_g
+            │   ├── 1024px_sobre_g
+            │   └── menos_de_768px_sobre_g
+            │
+            └── 📁 visualizacao_google/
+                ├── pag_cardapio_g
+                ├── pag_contato_g
+                ├── pag_inicial_g
+                └── pag_sobre_g
 ```
 
 ## Descrição do desenvolvimento do projeto
@@ -204,32 +317,32 @@ Deletei classes não utilizadas, devido às mudanças ao longo do desenvolviment
 
 
 
- ***Mozilla Firefox***
+***Mozilla Firefox***
 - **visualização de todas as páginas e erros críticos:** Em uma primeira verificação, com o menu de inspeção de elemento, verifiquei o comportamento da página, o layout estava adequado, sem problemas, a página não quebrou em momento algum.  
-*Imagens de demonstração estão descritas na pasta docs como pag_(nome da parte)_g.jpeg*
-![alt text](image.png)![alt text](image-1.png)![alt text](image-2.png)![alt text](image-3.png)
+*Imagens de demonstração estão descritas na pasta docs como pag_(nome da parte)_f.jpeg*
+![alt text](docs/testes_navegadores/mozilla_firefox/image.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-1.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-2.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-3.png)
 - **teste de links:**
 Para essa parte dos testes, vou dividi-la entre interações( que descreve como os botões de interação da página se comportam na ação do usuário), botões de links dentro do site ( ou seja, para páginas diferentes do site) , botões de acesso a informação ( voltar ao topo, conteúdo principal ) e links externos ( redes sociais, ifood e whatsapp )
-Imagens de demonstração estão descritas na pasta docs/google_chrome/links_google/pasta_do_teste como (ação)_(nome do botão)_g.jpeg
+Imagens de demonstração estão descritas na pasta docs/mozilla_firefox/links_firefox/pasta_do_teste como (ação)_(nome do botão)_f.jpeg
 
 Interações: Aqui estão os testes realizados em relação as interações de estados especiais das classes interativas
 Botão principal: Esses botões têm a classe botao_principal, em hover, ele alterna as cores de texto, fundo e borda, em focus ele faz o mesmo, com uma "outline" branca em volta, simbolizando foco, ao pressionar um desses botões em telas menores, o efeito de hover é aplicado ao último pressionado, identificando a ação escolhida.
-![alt text](image-4.png)![alt text](image-5.png)
+![alt text](docs/testes_navegadores/mozilla_firefox/image-4.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-5.png)
 Saudação: Esse campo tem a classe campo_nome, exclusiva da saudação na página index, ela identifica o cliente, em hover, assim como em focus, ela entrelaça a caixa de texto com uma "outline" branca em volta, simbolizando foco, ao escrever dentro da tela, um texto de apresentação aparece, cuja persistência ocorre, mesmo na mudança de telas.
-![alt text](image-6.png)
+![alt text](docs/testes_navegadores/mozilla_firefox/image-6.png)
 Menu: Ao interagir com o menu hamburguer, são abertas as opções de escolha de ramificações do site, ao passar o mouse sobre alguma delas, sua descrição fica demarcada em branco, ao utilizar a navegação por teclado, surge um outline em volta da opção selecionada, para telas menores ( celulares) o texto fica oculto, dando maior foco aos icones descritivos.
-![alt text](image-7.png)![alt text](image-8.png)
+![alt text](docs/testes_navegadores/mozilla_firefox/image-7.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-8.png)
 Botão de whatsapp - Contato: Ele serve de forma alternativa ao forumlário, para contato com a loja, no site atual, é a única forma, devido a ausência de backend para o forumlário, ao passar o mouse sobre esse item de interação, suas cores alternam, como no botão principal, em focus surge um outline em volta dele.
-![alt text](image-9.png)
+![alt text](docs/testes_navegadores/mozilla_firefox/image-9.png)
 - **teste de formulário:**
  Verificação de requerimento, finalização do formulário e estados
-Imagens de demonstração estão descritas na pasta docs/google_chrome/form como (ação)_form_g.jpeg
+Imagens de demonstração estão descritas na pasta docs/mozilla_firefox/form como (ação)_form_f.jpeg
 
 Item em foco/ativo: Surge um outline preto que engloba o item inteiro do formulário, contrastando seu interior claro, assim permitindo a compreensão do usuário, além disso, surge uma linha piscando dentro do item do formulário, indicando necessidade de escrita.
-![alt text](image-11.png)
+![alt text](docs/testes_navegadores/mozilla_firefox/image-11.png)
 - **teste de media queries.:**
 Semelhante ao teste de visualização, mas com detalhes de mudanças de display na página, caso ouver alguma além das mudanças de tamanho de fonte, vou estar excluindo a visualização das media queries de 1200+px pois as prints até agora foram nessa largura de página
-![alt text](image-12.png)![alt text](image-13.png)![alt text](image-14.png)![alt text](image-15.png)![alt text](image-16.png)
+![alt text](docs/testes_navegadores/mozilla_firefox/image-12.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-13.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-14.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-15.png)![alt text](docs/testes_navegadores/mozilla_firefox/image-16.png)
 
 ## Reflexão Individual - Lucas Ferreira
 
